@@ -1,7 +1,7 @@
 # Kcalbeloh System
 Kcalbeloh System adds a new black hole star system to Kerbal Space Program. 
 
-# Installation Guide
+# Installation
 ### Install Automatically from CKAN
 Not available for beta release.
 
@@ -30,7 +30,7 @@ In KSP 1.12.x, the stock maneuver tool can cause severe lag/stutter in planet mo
    * Scatterer
    * Singularity
    * ModuleManager.4.2.1.dll
-# Mod Setting Guide
+# Mod Settings
 Go to `KSP folder/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg`.
 
 ### Wormholes Setting
