@@ -1,0 +1,30 @@
+This mod is under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
+https://creativecommons.org/licenses/by-nc-nd/4.0/ 
+EXCEPT:
+    
+    The following textures are from Astronomer's Visual Pack created by themaster401 and Astronomer, and thus follow the CC-BY-NC-SA 4.0  license:
+        KcalbelohSystem/EVE/Textures/
+            aurora1Blank.dds
+            aurora1Yn.dds
+            aurora1Yp.dds
+            aurora2Blank.dds
+            aurora2Yn.dds
+            aurora2Yp.dds
+            auroraglowBlank.dds
+            auroraglowYn.dds
+            auroraglowYp.dds
+            aurorasoftBlank.dds
+            aurorasoftYn.dds
+            aurorasoftYp.dds
+            detailAurora.dds
+            detailCirrus.dds
+            detailCloud.dds
+            detailCumulus.dds
+            detailNoise.dds
+            uvnoise1.dds
+        KcalbelohSystem/EVE/Textures/particle/
+            particle_NRM.dds
+            rgb.dds
+            rgb2.dds
+            rgb3.dds
+            snow.dds

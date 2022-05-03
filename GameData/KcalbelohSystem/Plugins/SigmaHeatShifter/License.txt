@@ -1,0 +1,8 @@
+Sigma HeatShifter by Sigma88 is released under the following license:
+
+
+All Rights Reserved
+
+
+For more info visit the GitHub Repository:
+https://github.com/Sigma88/Sigma-HeatShifter
