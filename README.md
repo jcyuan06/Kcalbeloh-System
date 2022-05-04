@@ -1,7 +1,28 @@
 # Kcalbeloh System
 
-![Imgur](https://i.imgur.com/2XGq9wy.png)
+![Imgur](https://i.imgur.com/KFlHVFt.png)
 Kcalbeloh System adds a new black hole star system to Kerbal Space Program. 
+
+## Contents
+   - [**System Map**](https://github.com/jcyuan06/Kcalbeloh-System#system-map)
+   - [**Installation**](https://github.com/jcyuan06/Kcalbeloh-System#installation)
+      - [Install Automatically from CKAN](https://github.com/jcyuan06/Kcalbeloh-System#install-automatically-from-ckan)
+      - [Install Manually](https://github.com/jcyuan06/Kcalbeloh-System#install-manually)
+      - [For KSP 1.12.x](https://github.com/jcyuan06/Kcalbeloh-System#for-ksp-1.12.x)
+      - [Installation Checklist](https://github.com/jcyuan06/Kcalbeloh-System#installation-checklist)
+   - [**Mod Settings**](https://github.com/jcyuan06/Kcalbeloh-System#mod-settings)
+      - [Wormholes](https://github.com/jcyuan06/Kcalbeloh-System#wormholes)
+      - [Home Switch](https://github.com/jcyuan06/Kcalbeloh-System#home-switch)
+      - [Distance](https://github.com/jcyuan06/Kcalbeloh-System#distance)
+      - [Rescale](https://github.com/jcyuan06/Kcalbeloh-System#rescale)
+   - [**Compatibility**](https://github.com/jcyuan06/Kcalbeloh-System#compatibility)
+      - [RSS Compatibility](https://github.com/jcyuan06/Kcalbeloh-System#how-to-make-it-compatible-with-realsolarsystem)
+   - **Recommended Mods**
+   - [**FAQs**](https://github.com/jcyuan06/Kcalbeloh-System#faqs)
+   - [**Contacts**](https://github.com/jcyuan06/Kcalbeloh-System#contacts)
+   - **License**
+# System Map
+Pending
 # Installation
 ### Install Automatically from CKAN
 Not available for beta release.
@@ -34,12 +55,12 @@ In KSP 1.12.x, the stock maneuver tool can cause severe lag/stutter in planet mo
 # Mod Settings
 Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg`.
 
-### Wormholes Setting
+### Wormholes
 `Wormholes = `: whether to have wormholes connecting stock solar system and Kcalbeloh system.  
    - `True`: (default) enable the wormholes.
    - `False`: disable the wormholes.
 
-### Home Switch Setting
+### Home Switch
 `HomeSwitch = `: whether to move KSC to Kcalbeloh system. 
    - `False`: (default) keep KSC on Kerbin.
    - `Suluco`: move KSC and other launch sites and airfields to Suluco.
@@ -47,14 +68,14 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - Home switch is NOT compatible with system-replacement planet mods (Beyond Home, GPP, RSS, etc).
    - Do **NOT** load any saved game after changing home switch setting.
 
-### Distance Setting
+### Distance
 `DistanceFactor =`: moving Kcalbeoh System closer or further to stock system.  
    - `1`: (default) keep the default distance (271.8 Tm).
    - `0.1`: 0.1x default distance.
    - `10`: 10x default distance.
    - `100`: 100x default distance.
 
-### Rescale Setting
+### Rescale
 `Rescale = `: rescale the system to 2.5x or 10x size.  
    - `1`: (default) No rescales applied. It has the same scale with stock system.
    - `2.5`: 2.5x scale. If JNSQ is installed, this value will be forced.
