@@ -1,6 +1,7 @@
 # Kcalbeloh System
-Kcalbeloh System adds a new black hole star system to Kerbal Space Program. 
 
+![Imgur](https://i.imgur.com/2XGq9wy.png)
+Kcalbeloh System adds a new black hole star system to Kerbal Space Program. 
 # Installation
 ### Install Automatically from CKAN
 Not available for beta release.
