@@ -31,7 +31,7 @@ In KSP 1.12.x, the stock maneuver tool can cause severe lag/stutter in planet mo
    * Singularity
    * ModuleManager.4.2.1.dll
 # Mod Settings
-Go to `KSP folder/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg`.
+Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg`.
 
 ### Wormholes Setting
 `Wormholes = `: whether to have wormholes connecting stock solar system and Kcalbeloh system.  
@@ -57,10 +57,34 @@ Go to `KSP folder/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings
 `Rescale = `: rescale the system to 2.5x or 10x size.  
    - `1`: (default) No rescales applied. It has the same scale with stock system.
    - `2.5`: 2.5x scale. If JNSQ is installed, this value will be forced.
-   - `10`: - 10x scale (realistic scale). If RealSolarSystem is installed, this option will be forced.
-   - This setting needs Sigma Dimensions installed: https://github.com/Sigma88/Sigma-Dimensions
+   - `10`: 10x scale (realistic scale). If RealSolarSystem is installed, this option will be forced.
+   - This setting needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
    - Rescale only applies to celectial bodies from this mod.
+# Compatibility
+Kcalbeloh System provides support with:  
+   - Environmental Visual Enhancements
+   - Scatterer
+   - Parallax (Needs Parallax Stock Textures)
+   - Community Resource Pack
+   - SpaceDust
+   - Kerbalism
+   - Distant Object Enhancement
+   - PlanetShine   
 
+Kcalbeloh System is compatible with:
+   - Most visual mods (AVP, Spectra, SVE...)
+   - Most planet mods (Beyond Home, OPM, GPP...)
+   - RealSolarSystem, but requires some minor adjustments. See the next session.   
+
+Kcalbeloh System is NOT compatible with:
+   - Principia
+
+### How to make it compatible with RealSolarSystem?
+1. Download `RSSKopernicusSettings.cfg` in the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases).
+2. Put it to `Kerbal Space Program/GameData/RealSolarSystem/` and replace the original file. 
+3. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
+
+Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
 # FAQs
 1. **Does it replace the Kerbol system or add a new system?**  
 It adds a new system without any change to the Kerbol system. But it also offers home switch options which allow you to move KSC to habitable planets in Kcalbeloh system.
