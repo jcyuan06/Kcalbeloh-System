@@ -109,7 +109,7 @@ Kcalbeloh System is NOT compatible with:
 Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
 # FAQs
 1. **Does it replace the Kerbol system or add a new system?**  
-It adds a new system without any change to the Kerbol system. But it also offers home switch options which allow you to move KSC to habitable planets in Kcalbeloh system.
+It adds a new system without any change to the Kerbol system. But it also offers home switch options which allow you to move KSC to habitable planets in Kcalbeloh system. For more information on home switch, [click here](https://github.com/jcyuan06/Kcalbeloh-System#home-switch).
 
 2. **Is it based on the movie Interstellar?**  
 Yes, but no. Although some ideas of the mod are inspired by Interstellar, the goal of the mod is not to facsimile the Gargantua system from Interstellar, but to create a unique star system.
@@ -119,6 +119,9 @@ Yes, it is compatible with most planet packs but it still needs further testing.
 
 4. **Is it compatible with other visual mods?**
 Yes, it is compatible with most visual mods for stock system, such as Astronomer's Visual Pack, Spectra, and Stock Visual Enhancement.
+
+5. **What is a wormhole? How can I use it?**
+A wormhole is a structure linking disparate points in spacetime. In KSP, a wormhole functions like a celestial body with its mass and SOI. To traverse the wormhole, you need to lower your periapsis below 30 km. After you reach the periapsis, you will jump to the other star system.
 
 # Contact
 [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/203753-wip-112x-kcalbeloh-system-planet-pack-beta-12-a-journey-to-a-black-hole-may-02-2022/)  
