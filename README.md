@@ -24,6 +24,7 @@ Kcalbeloh System adds a new black hole star system to Kerbal Space Program.
 # System Map
 Pending
 # Installation
+![Imgur](https://i.imgur.com/wRbpAsq.png)
 ### Install Automatically from CKAN
 Not available for beta release.
 
@@ -53,6 +54,7 @@ In KSP 1.12.x, the stock maneuver tool can cause severe lag/stutter in planet mo
    * Singularity
    * ModuleManager.4.2.1.dll
 # Mod Settings
+![Imgur](https://i.imgur.com/Noi9Uym.pngg)
 Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg`.
 
 ### Wormholes
@@ -83,6 +85,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - This setting needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
    - Rescale only applies to celectial bodies from this mod.
 # Compatibility
+![Imgur](https://i.imgur.com/a4uOXAY.png)
 Kcalbeloh System provides support with:  
    - Environmental Visual Enhancements
    - Scatterer
@@ -101,16 +104,19 @@ Kcalbeloh System is compatible with:
 Kcalbeloh System is NOT compatible with:
    - Principia
 
-# Recommended Mods
-Pending
-
 ### How to make it compatible with RealSolarSystem?
 1. Download `RSSKopernicusSettings.cfg` in the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases).
 2. Put it to `Kerbal Space Program/GameData/RealSolarSystem/` and replace the original file. 
 3. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
 
 Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
+
+# Recommended Mods
+![Imgur](https://i.imgur.com/Wz54y0w.png)
+Pending
+
 # FAQs
+![Imgur](https://i.imgur.com/gwV8mR9.png)
 1. **Does it replace the Kerbol system or add a new system?**  
 It adds a new system without any change to the Kerbol system. But it also offers home switch options which allow you to move KSC to habitable planets in Kcalbeloh system. For more information on home switch, [click here](https://github.com/jcyuan06/Kcalbeloh-System#home-switch).
 
@@ -130,6 +136,7 @@ Yes, it is compatible with most visual mods for stock system, such as Astronomer
 A wormhole is a structure linking disparate points in spacetime. In KSP, a wormhole functions like a celestial body with its mass and SOI. To traverse the wormhole, you need to lower your periapsis below 30 km. After you reach the periapsis, you will jump to the other star system.
 
 # Contact
+![Imgur](https://i.imgur.com/eFFC7Fe.png)
 [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/203753-wip-112x-kcalbeloh-system-planet-pack-beta-12-a-journey-to-a-black-hole-may-02-2022/)  
 [Discord Server](https://discord.gg/Crmy8KgqK2) 
 
