@@ -117,10 +117,10 @@ Yes, but no. Although some ideas of the mod are inspired by Interstellar, the go
 3. **Is it compatible with other planet packs?**  
 Yes, it is compatible with most planet packs but it still needs further testing. Let me know if you have any issues.
 
-4. **Is it compatible with other visual mods?**
+4. **Is it compatible with other visual mods?**  
 Yes, it is compatible with most visual mods for stock system, such as Astronomer's Visual Pack, Spectra, and Stock Visual Enhancement.
 
-5. **What is a wormhole? How can I use it?**
+5. **What is a wormhole? How can I use it?**  
 A wormhole is a structure linking disparate points in spacetime. In KSP, a wormhole functions like a celestial body with its mass and SOI. To traverse the wormhole, you need to lower your periapsis below 30 km. After you reach the periapsis, you will jump to the other star system.
 
 # Contact
