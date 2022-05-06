@@ -85,7 +85,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - This setting needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
    - Rescale only applies to celectial bodies from this mod.
 # Compatibility
-![Imgur](https://i.imgur.com/a4uOXAY.png)
+![Imgur](https://i.imgur.com/hPm4c7b.png)
 Kcalbeloh System provides support with:  
    - Environmental Visual Enhancements
    - Scatterer
