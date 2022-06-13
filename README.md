@@ -22,7 +22,13 @@ Kcalbeloh System adds a new black hole star system to Kerbal Space Program.
    - [**Contacts**](https://github.com/jcyuan06/Kcalbeloh-System#contacts)
    - [**License**](https://github.com/jcyuan06/Kcalbeloh-System#license)
 # System Map
-[![alt text](https://i.imgur.com/H71LNbF.png)](https://i.imgur.com/UB1E5V3.jpg)
+<details>
+   <summary> Are you sure you want to spoil it? </summary>
+   <p>
+   <img src=https://i.imgur.com/UB1E5V3.jpg/>
+   </p>
+ </details>
+ 
 # Installation
 ![Imgur](https://i.imgur.com/wRbpAsq.png)
 ### Install Automatically from CKAN
