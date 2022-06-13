@@ -25,7 +25,7 @@ Kcalbeloh System adds a new black hole star system to Kerbal Space Program.
 <details>
    <summary> Are you sure you want to spoil it? </summary>
    <p>
-   <img src=https://i.imgur.com/UB1E5V3.jpg/>
+   <img src=https://lh3.googleusercontent.com/4nNkt9Bqht5KJ3AzGgSCJdBHGf0Em8uX9gukyEHSCBwYVq0uIFZ0bXp_qIHaFkF9ziuK4MZm-7__s65VAHbhlwpqaYuBCs_yXjkQrUzxCTGHQPkcPuOwrSoghftu4-jBW6NATe7XeQ=w2400>
    </p>
  </details>
  
