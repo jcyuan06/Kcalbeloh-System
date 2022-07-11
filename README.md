@@ -51,6 +51,7 @@ In KSP 1.12.x, the stock maneuver tool can cause severe lag/stutter in planet mo
    2. Disable the stock maneuver tool in the in-game settings menu.
 ### Installation Checklist
    After a complete installation, the GameData folder should at least have the following contents:
+   * 000_Harmony
    * EnvironmentalVisualEnhancements
    * KcalbelohSystem
    * Kopernicus
@@ -58,7 +59,7 @@ In KSP 1.12.x, the stock maneuver tool can cause severe lag/stutter in planet mo
    * ModularFlightIntegrator
    * Scatterer
    * Singularity
-   * ModuleManager.4.2.1.dll
+   * ModuleManager.4.2.2.dll
 # Mod Settings
 ![Imgur](https://i.imgur.com/Noi9Uym.pngg)
 Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg`.
