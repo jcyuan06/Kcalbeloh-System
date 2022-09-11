@@ -8,7 +8,7 @@ Kcalbeloh System adds a new black hole star system to Kerbal Space Program.
    - [**Installation**](https://github.com/jcyuan06/Kcalbeloh-System#installation)
       - [Install Automatically from CKAN](https://github.com/jcyuan06/Kcalbeloh-System#install-automatically-from-ckan)
       - [Install Manually](https://github.com/jcyuan06/Kcalbeloh-System#install-manually)
-      - [For KSP 1.12.x](https://github.com/jcyuan06/Kcalbeloh-System#for-ksp-1.12.x)
+      - [After Installation **(Please read!)**](https://github.com/jcyuan06/Kcalbeloh-System/edit/main/README.md#after-installation-please-readx)
       - [Installation Checklist](https://github.com/jcyuan06/Kcalbeloh-System#installation-checklist)
    - [**Mod Settings**](https://github.com/jcyuan06/Kcalbeloh-System#mod-settings)
       - [Wormholes](https://github.com/jcyuan06/Kcalbeloh-System#wormholes)
@@ -41,14 +41,16 @@ Not available for beta release.
 2. **Install Dependencies**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/): for creating custom celestial bodies.
    * [**Singularity**](https://forum.kerbalspaceprogram.com/index.php?/topic/193709-wip18x-112x-singularity-black-hole-shaders/#comment-3782330): for blackhole and wormhole shaders.   
+   * [**KSPCommunityFixes**](https://forum.kerbalspaceprogram.com/index.php?/topic/204002-18-112-kspcommunityfixes-bugfixes-and-qol-tweaks/): for bug fixes.
 3. **Install Visuals**  
 The planet pack works fine without visual mods, but it will lose a large part of its aesthetic.
    * [**EVE Redux**](https://forum.kerbalspaceprogram.com/index.php?/topic/196411-19-112-eve-redux-performance-enhanced-eve-maintenance-v11151-07112021/): for clouds, dust storms, and auroras.
    * [**Scatterer**](): for realistic atmosphere, oceans, and sun flares.  
-### For KSP 1.12.x
-In KSP 1.12.x, the stock maneuver tool can cause severe lag/stutter in planet mods, so KSPCommunityFixes is STRONGLY recommended. To fix this issue, you need to:
-   1. Install [KSPCommunityFixes](https://forum.kerbalspaceprogram.com/index.php?/topic/204002-18-112-kspcommunityfixes-bugfixes-and-qol-tweaks/).
-   2. Disable the stock maneuver tool in the in-game settings menu.
+### After Installation (Please read!)
+In KSP 1.12.x, the stock maneuver planning tool can cause severe lag/stutter in planet mods, so it's strongly recommended to disable it:
+   * Press ESC in game and press the 'Settings' button. Then disable the maneuver tool in the setting menu, under KSP Community Fixes section. See below:
+   
+![Imgur](https://i.imgur.com/z89SQdm.gif)
 ### Installation Checklist
    After a complete installation, the GameData folder should at least have the following contents:
    * 000_Harmony
@@ -56,6 +58,7 @@ In KSP 1.12.x, the stock maneuver tool can cause severe lag/stutter in planet mo
    * KcalbelohSystem
    * Kopernicus
    * KopernicusExpansion
+   * KSPCommunityFixes
    * ModularFlightIntegrator
    * Scatterer
    * Singularity
@@ -100,7 +103,6 @@ Kcalbeloh System provides support with:
    - Community Resource Pack
    - SpaceDust
    - Kerbalism
-   - Distant Object Enhancement
    - PlanetShine   
 
 Kcalbeloh System is compatible with:
@@ -120,7 +122,13 @@ Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale
 
 # Recommended Mods
 ![Imgur](https://i.imgur.com/Wz54y0w.png)
-Pending
+   - [**Near Future Technologies**](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/)  
+   Advanced electric engines, nuclear reactors, large solar panels, antenna, and more!
+   - [**Far Future Technologies**](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/) 
+   Fission, fusion, and antimatter engines!
+   - [**Better Time Warp**](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)  
+   
+   - [**Extraplanetary Launchpads**](https://forum.kerbalspaceprogram.com/index.php?/topic/54284-112-extraplanetary-launchpads-v6993/)  
 
 # FAQs
 ![Imgur](https://i.imgur.com/gwV8mR9.png)
