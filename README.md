@@ -1,14 +1,14 @@
 # Kcalbeloh System
 
 ![Imgur](https://i.imgur.com/KFlHVFt.png)
-Kcalbeloh System adds a new black hole star system to Kerbal Space Program. 
+Kcalbeloh System adds a new black hole system to Kerbal Space Program. 
 
 ## Contents
    - [**System Map**](https://github.com/jcyuan06/Kcalbeloh-System#system-map)
    - [**Installation**](https://github.com/jcyuan06/Kcalbeloh-System#installation)
       - [Install Automatically from CKAN](https://github.com/jcyuan06/Kcalbeloh-System#install-automatically-from-ckan)
       - [Install Manually](https://github.com/jcyuan06/Kcalbeloh-System#install-manually)
-      - [After Installation **(Please read!)**](https://github.com/jcyuan06/Kcalbeloh-System/edit/main/README.md#after-installation-please-readx)
+      - [After Installation (Please read!)](https://github.com/jcyuan06/Kcalbeloh-System/edit/main/README.md#after-installation-please-readx)
       - [Installation Checklist](https://github.com/jcyuan06/Kcalbeloh-System#installation-checklist)
    - [**Mod Settings**](https://github.com/jcyuan06/Kcalbeloh-System#mod-settings)
       - [Wormholes](https://github.com/jcyuan06/Kcalbeloh-System#wormholes)
@@ -124,11 +124,12 @@ Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale
 ![Imgur](https://i.imgur.com/Wz54y0w.png)
    - [**Near Future Technologies**](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/)  
    Advanced electric engines, nuclear reactors, large solar panels, antenna, and more!
-   - [**Far Future Technologies**](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/) 
+   - [**Far Future Technologies**](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/)  
    Fission, fusion, and antimatter engines!
    - [**Better Time Warp**](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)  
    
    - [**Extraplanetary Launchpads**](https://forum.kerbalspaceprogram.com/index.php?/topic/54284-112-extraplanetary-launchpads-v6993/)  
+   Build your vessels in another planet!
 
 # FAQs
 ![Imgur](https://i.imgur.com/gwV8mR9.png)
