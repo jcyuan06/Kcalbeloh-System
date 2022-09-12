@@ -8,7 +8,7 @@ Kcalbeloh System adds a new black hole system to Kerbal Space Program.
    - [**Installation**](https://github.com/jcyuan06/Kcalbeloh-System#installation)
       - [Install Automatically from CKAN](https://github.com/jcyuan06/Kcalbeloh-System#install-automatically-from-ckan)
       - [Install Manually](https://github.com/jcyuan06/Kcalbeloh-System#install-manually)
-      - [After Installation (Please read!)](https://github.com/jcyuan06/Kcalbeloh-System/edit/main/README.md#after-installation-please-readx)
+      - [After Installation (Please read!)](https://github.com/jcyuan06/Kcalbeloh-System#after-installation-please-read)
       - [Installation Checklist](https://github.com/jcyuan06/Kcalbeloh-System#installation-checklist)
    - [**Mod Settings**](https://github.com/jcyuan06/Kcalbeloh-System#mod-settings)
       - [Wormholes](https://github.com/jcyuan06/Kcalbeloh-System#wormholes)
