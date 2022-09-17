@@ -4,33 +4,34 @@ Unless specified, all content of [Kcalbeloh System Planet Pack](https://forum.ke
 
 ### Exceptions
 1. The following textures are from [Astronomer's Visual Pack](https://forum.kerbalspaceprogram.com/index.php?/topic/160878-ksp-1123-astronomers-visual-pack-beyond-v413-july-17th-2022/) and redistributed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License:  
-    > KcalbelohSystem/EVE/Textures/aurora1Blank.dds  
-    > KcalbelohSystem/EVE/Textures/aurora1Yn.dds  
-    > KcalbelohSystem/EVE/Textures/aurora1Yp.dds  
-    > KcalbelohSystem/EVE/Textures/aurora2Blank.dds  
-    > KcalbelohSystem/EVE/Textures/aurora2Yn.dds  
-    > KcalbelohSystem/EVE/Textures/aurora2Yp.dds  
-    > KcalbelohSystem/EVE/Textures/auroraglowBlank.dds  
-    > KcalbelohSystem/EVE/Textures/auroraglowYn.dds  
-    > KcalbelohSystem/EVE/Textures/auroraglowYp.dds  
-    > KcalbelohSystem/EVE/Textures/aurorasoftBlank.dds  
-    > KcalbelohSystem/EVE/Textures/aurorasoftYn.dds  
-    > KcalbelohSystem/EVE/Textures/aurorasoftYp.dds  
-    > KcalbelohSystem/EVE/Textures/detailAurora.dds  
-    > KcalbelohSystem/EVE/Textures/detailCirrus.dds  
-    > KcalbelohSystem/EVE/Textures/detailCumulus.dds  
-    > KcalbelohSystem/EVE/Textures/detailNoise.dds  
-    > KcalbelohSystem/EVE/Textures/uvnoise1.dds  
-    > KcalbelohSystem/EVE/Textures/particle/particle_NRM.dds  
-    > KcalbelohSystem/EVE/Textures/particle/rgb.dds  
-    > KcalbelohSystem/EVE/Textures/particle/rgb2.dds  
-    > KcalbelohSystem/EVE/Textures/particle/rgb3.dds  
-2. The mod [Kopernicus Expansion Continued-er](https://forum.kerbalspaceprogram.com/index.php?/topic/195844-110-111-112-alpha-kopernicus-expansion-continued-er/) in `KopernicusExpansion` folder is redistributed under the GNU General Public License.
+    > GameData/KcalbelohSystem/EVE/Textures/aurora1Blank.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/aurora1Yn.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/aurora1Yp.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/aurora2Blank.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/aurora2Yn.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/aurora2Yp.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/auroraglowBlank.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/auroraglowYn.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/auroraglowYp.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/aurorasoftBlank.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/aurorasoftYn.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/aurorasoftYp.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/detailAurora.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/detailCirrus.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/detailCumulus.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/detailNoise.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/uvnoise1.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/particle/particle_NRM.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/particle/rgb.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/particle/rgb2.dds  
+    > GameData/KcalbelohSystem/EVE/Textures/particle/rgb3.dds  
+2. The mod [Kopernicus Expansion Continued-er](https://forum.kerbalspaceprogram.com/index.php?/topic/195844-110-111-112-alpha-kopernicus-expansion-continued-er/) in the following folder is redistributed under the GNU General Public License.
+    > GameData/KopernicusExpansion
 3. The plugin [Niako's Kopernicus Utilities](https://forum.kerbalspaceprogram.com/index.php?/topic/207768-112-niakos-kopernicus-utilities-smoother-heightmaps/) in the following path is redistributed under the MIT license:
-    > KcalbelohSystem/Plugins/VertexMitchellNetravaliHeightMap.dll
+    > GameData/KcalbelohSystem/Plugins/VertexMitchellNetravaliHeightMap.dll
 4. The plugins in the following folders are created by [Sigma88](https://forum.kerbalspaceprogram.com/index.php?/profile/113260-sigma88/) and redistributed under their own license:
-    > KcalbelohSystem/Plugins/SigmaLoadingScreens  
-    > KcalbelohSystem/Plugins/SigmaReplacementsSkyBox
+    > GameData/KcalbelohSystem/Plugins/SigmaLoadingScreens  
+    > GameData/KcalbelohSystem/Plugins/SigmaReplacementsSkyBox
 
 ## Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
 
