@@ -20,7 +20,7 @@ Kcalbeloh System adds a new black hole system to Kerbal Space Program.
    - [**Recommended Mods**](https://github.com/jcyuan06/Kcalbeloh-System#recommended-mods)
    - [**FAQs**](https://github.com/jcyuan06/Kcalbeloh-System#faqs)
    - [**Contacts**](https://github.com/jcyuan06/Kcalbeloh-System#contacts)
-   - [**License**]([https://github.com/jcyuan06/Kcalbeloh-System#license](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/GameData/KcalbelohSystem/License.md#attribution-noncommercial-noderivatives-40-international))
+   - [**License**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/GameData/KcalbelohSystem/License.md#attribution-noncommercial-noderivatives-40-international)
 # System Map
 <details>
    <summary> Are you sure you want to spoil it? </summary>
