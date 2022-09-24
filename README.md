@@ -20,7 +20,7 @@ Kcalbeloh System adds a new black hole system to Kerbal Space Program.
    - [**Recommended Mods**](https://github.com/jcyuan06/Kcalbeloh-System#recommended-mods)
    - [**FAQs**](https://github.com/jcyuan06/Kcalbeloh-System#faqs)
    - [**Contacts**](https://github.com/jcyuan06/Kcalbeloh-System#contacts)
-   - [**License**](https://github.com/jcyuan06/Kcalbeloh-System#license)
+   - [**License**]([https://github.com/jcyuan06/Kcalbeloh-System#license](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/GameData/KcalbelohSystem/License.md#attribution-noncommercial-noderivatives-40-international))
 # System Map
 <details>
    <summary> Are you sure you want to spoil it? </summary>
@@ -155,6 +155,3 @@ A wormhole is a structure linking disparate points in spacetime. In KSP, a wormh
 ![Imgur](https://i.imgur.com/eFFC7Fe.png)
 [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/203753-wip-112x-kcalbeloh-system-planet-pack-beta-12-a-journey-to-a-black-hole-may-02-2022/)  
 [Discord Server](https://discord.gg/Crmy8KgqK2) 
-
-# License
-Pending
