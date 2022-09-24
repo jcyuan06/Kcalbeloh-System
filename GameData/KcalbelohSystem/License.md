@@ -29,9 +29,12 @@ Unless specified, all content of [Kcalbeloh System Planet Pack](https://forum.ke
     > GameData/KopernicusExpansion
 3. The plugin [Niako's Kopernicus Utilities](https://forum.kerbalspaceprogram.com/index.php?/topic/207768-112-niakos-kopernicus-utilities-smoother-heightmaps/) in the following path is redistributed under the MIT license:
     > GameData/KcalbelohSystem/Plugins/VertexMitchellNetravaliHeightMap.dll
-4. The plugins in the following folders are created by [Sigma88](https://forum.kerbalspaceprogram.com/index.php?/profile/113260-sigma88/) and redistributed under their own license:
+4. The plugins in the following folders are created by [Sigma88](https://forum.kerbalspaceprogram.com/index.php?/profile/113260-sigma88/) and redistributed under their own licenses:
     > GameData/KcalbelohSystem/Plugins/SigmaLoadingScreens  
     > GameData/KcalbelohSystem/Plugins/SigmaReplacementsSkyBox
+5. Some of the sunflare textures are made based on textures of [Kabrams Sun Flare's Pack](https://spacedock.info/mod/1843/Kabrams%20Sun%20Flare%27s%20Pack%20for%20Scatterer.) and redistributed under its own license:
+    > GameData/KcalbelohSystem/Scatterer/Sunflares/
+6. Other contributions to this mod are claimed in the [forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/203753-wip-1123-kcalbeloh-system-planet-pack-beta-14-a-journey-to-a-black-hole-sep-11-2022/).
 
 ## Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
 
