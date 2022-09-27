@@ -52,7 +52,7 @@ Happy launchings!
 3. **Install Visuals**  
 The planet pack works fine without visual mods, but it will lose a large part of its aesthetic.
    * [**EVE Redux**](https://forum.kerbalspaceprogram.com/index.php?/topic/196411-19-112-eve-redux-performance-enhanced-eve-maintenance-v11151-07112021/): for clouds, dust storms, and auroras.
-   * [**Scatterer**](): for realistic atmosphere, oceans, and sun flares.  
+   * [**Scatterer**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main): for realistic atmosphere, oceans, and sun flares.  
 ### After Installation (Please read!)
 In KSP 1.12.x, the stock maneuver planning tool can cause severe lag/stutter in planet mods, so it's strongly recommended to disable it:
    * Press ESC in game and press the 'Settings' button. Then disable the maneuver tool in the setting menu, under KSP Community Fixes section. See below:
