@@ -3,7 +3,7 @@
 ![Imgur](https://i.imgur.com/KFlHVFt.png)
 Kcalbeloh System is a planet pack adding a high quality black hole system,  which includes a giant black hole and three star systems orbiting around it, and 25 planets and moons.
 
-After more than a year of development, I'm glad to announce that Kcalbeloh System has finally come to the official release. 
+After more than a year of development, I'm glad to announce that Kcalbeloh System has finally come to the official release. I tried my best to make each celestial bodies unique, high quality and worth exploring. Most celestial bodies have been revamped several times before they appeared as they are today. Also, I tried my best to make this system with as much variety as possible. Through this mod, I hope I am able to share the beauty of the universe with you.
 
 I really appreciate everyone who has followed this mod. Also thanks to everyone who has provided suggestions, bug reports, or any other forms of help.
 
@@ -40,8 +40,11 @@ Happy launchings!
 
 ### Install Manually
 1. **Install Kcalbeloh System**
-   * [**Download**](https://github.com/jcyuan06/Kcalbeloh-System/releases) the newest version of Kcalbeloh System, extract and put all the contents in /GameData to your KSP /GameData folder.
-   * If you are updating this mod, make sure you delete the previous version completely before installing the new version.  
+   * Download (choose one):
+      - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
+      - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0) (for Chinese players)
+   * Extract the zip file and put all the contents in `/GameData` to your `[KSP installation folder]/GameData/` folder.
+   * If you are updating this mod, make sure you have deleted the previous version completely before installing the new version.  
 2. **Install Dependencies**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/): for creating custom celestial bodies.
    * [**Singularity**](https://forum.kerbalspaceprogram.com/index.php?/topic/193709-wip18x-112x-singularity-black-hole-shaders/#comment-3782330): for blackhole and wormhole shaders.   
