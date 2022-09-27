@@ -1,22 +1,28 @@
 # Kcalbeloh System
 
 ![Imgur](https://i.imgur.com/KFlHVFt.png)
-Kcalbeloh System adds a new black hole system to Kerbal Space Program. 
+Kcalbeloh System is a planet pack adding a high quality black hole system,  which includes a giant black hole and three star systems orbiting around it, and 25 planets and moons.
 
+After more than a year of development, I'm glad to announce that Kcalbeloh System has finally come to the official release. 
+
+I really appreciate everyone who has followed this mod. Also thanks to everyone who has provided suggestions, bug reports, or any other forms of help.
+
+The official release doesn't mean the end of the development. I have some plans for future updates to make it better. If you have a cool idea and want to contribute to this project, feel free to let me know.
+
+Happy launchings!
 ## Contents
    - [**System Map**](https://github.com/jcyuan06/Kcalbeloh-System#system-map)
    - [**Installation**](https://github.com/jcyuan06/Kcalbeloh-System#installation)
-      - [Install Automatically from CKAN](https://github.com/jcyuan06/Kcalbeloh-System#install-automatically-from-ckan)
       - [Install Manually](https://github.com/jcyuan06/Kcalbeloh-System#install-manually)
       - [After Installation (Please read!)](https://github.com/jcyuan06/Kcalbeloh-System#after-installation-please-read)
       - [Installation Checklist](https://github.com/jcyuan06/Kcalbeloh-System#installation-checklist)
+   - [**Compatibility**](https://github.com/jcyuan06/Kcalbeloh-System#compatibility)
+      - [RSS Compatibility](https://github.com/jcyuan06/Kcalbeloh-System#how-to-make-it-compatible-with-realsolarsystem)
    - [**Mod Settings**](https://github.com/jcyuan06/Kcalbeloh-System#mod-settings)
       - [Wormholes](https://github.com/jcyuan06/Kcalbeloh-System#wormholes)
       - [Home Switch](https://github.com/jcyuan06/Kcalbeloh-System#home-switch)
       - [Distance](https://github.com/jcyuan06/Kcalbeloh-System#distance)
       - [Rescale](https://github.com/jcyuan06/Kcalbeloh-System#rescale)
-   - [**Compatibility**](https://github.com/jcyuan06/Kcalbeloh-System#compatibility)
-      - [RSS Compatibility](https://github.com/jcyuan06/Kcalbeloh-System#how-to-make-it-compatible-with-realsolarsystem)
    - [**Recommended Mods**](https://github.com/jcyuan06/Kcalbeloh-System#recommended-mods)
    - [**FAQs**](https://github.com/jcyuan06/Kcalbeloh-System#faqs)
    - [**Contacts**](https://github.com/jcyuan06/Kcalbeloh-System#contacts)
@@ -30,9 +36,7 @@ Kcalbeloh System adds a new black hole system to Kerbal Space Program.
  </details>
  
 # Installation
-![Imgur](https://i.imgur.com/wRbpAsq.png)
-### Install Automatically from CKAN
-Not available for beta release.
+![Imgur](https://i.imgur.com/Jx0EVs1.png)
 
 ### Install Manually
 1. **Install Kcalbeloh System**
@@ -63,8 +67,34 @@ In KSP 1.12.x, the stock maneuver planning tool can cause severe lag/stutter in 
    * Scatterer
    * Singularity
    * ModuleManager.4.2.2.dll
+# Compatibility
+![Imgur](https://i.imgur.com/VVoMOzg.png)
+Kcalbeloh System provides support with:  
+   - Environmental Visual Enhancements
+   - Scatterer
+   - Parallax (Needs Parallax Stock Textures)
+   - Community Resource Pack
+   - SpaceDust
+   - Kerbalism
+   - PlanetShine   
+
+Kcalbeloh System is compatible with:
+   - Most visual mods (AVP, Spectra, SVE...)
+   - Most planet mods (Beyond Home, OPM, GPP...)
+   - RealSolarSystem, but requires some minor adjustments. See the next session.   
+
+Kcalbeloh System is NOT compatible with:
+   - Principia
+
+### How to make it compatible with RealSolarSystem?
+1. Download `RSSKopernicusSettings.cfg` in the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases).
+2. Put it to `Kerbal Space Program/GameData/RealSolarSystem/` and replace the original file. 
+3. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
+
+Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
+
 # Mod Settings
-![Imgur](https://i.imgur.com/Noi9Uym.pngg)
+![Imgur](https://i.imgur.com/SIjy14c.png)
 Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg`.
 
 ### Wormholes
@@ -94,45 +124,30 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - `10`: 10x scale (realistic scale). If RealSolarSystem is installed, this option will be forced.
    - This setting needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
    - Rescale only applies to celectial bodies from this mod.
-# Compatibility
-![Imgur](https://i.imgur.com/hPm4c7b.png)
-Kcalbeloh System provides support with:  
-   - Environmental Visual Enhancements
-   - Scatterer
-   - Parallax (Needs Parallax Stock Textures)
-   - Community Resource Pack
-   - SpaceDust
-   - Kerbalism
-   - PlanetShine   
-
-Kcalbeloh System is compatible with:
-   - Most visual mods (AVP, Spectra, SVE...)
-   - Most planet mods (Beyond Home, OPM, GPP...)
-   - RealSolarSystem, but requires some minor adjustments. See the next session.   
-
-Kcalbeloh System is NOT compatible with:
-   - Principia
-
-### How to make it compatible with RealSolarSystem?
-1. Download `RSSKopernicusSettings.cfg` in the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases).
-2. Put it to `Kerbal Space Program/GameData/RealSolarSystem/` and replace the original file. 
-3. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
-
-Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
 
 # Recommended Mods
-![Imgur](https://i.imgur.com/Wz54y0w.png)
-   - [**Near Future Technologies**](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/)  
-   Advanced electric engines, nuclear reactors, large solar panels, antenna, and more!
-   - [**Far Future Technologies**](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/)  
-   Fission, fusion, and antimatter engines!
-   - [**Better Time Warp**](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)  
+![Imgur](https://i.imgur.com/jFkzu48.png)
+   -  **Propulsion**
+      -  [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/) 
+      - [Far Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/)  
+      or
+      - [KSP Interstellar Extended](https://forum.kerbalspaceprogram.com/index.php?/topic/173818-181-1122-ksp-interstellar-extended-1295-release-thread/)
    
-   - [**Extraplanetary Launchpads**](https://forum.kerbalspaceprogram.com/index.php?/topic/54284-112-extraplanetary-launchpads-v6993/)  
-   Build your vessels in another planet!
+   - **Quality of Life**
+      - [Better Time Warp](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)  
+   
+   - **Manufacturing**
+      - [Extraplanetary Launchpads](https://forum.kerbalspaceprogram.com/index.php?/topic/54284-112-extraplanetary-launchpads-v6993/)  
+      - [SandCastle](https://forum.kerbalspaceprogram.com/index.php?/topic/201137-min-ksp-112x-sandcastle-3d-printing-for-parts-and-vessels/)
+   
+   - **Visual**
+      - [Astronomer's Visual Pack](https://forum.kerbalspaceprogram.com/index.php?/topic/160878-ksp-1123-astronomers-visual-pack-beyond-v413-july-17th-2022/) or [Spectra](https://forum.kerbalspaceprogram.com/index.php?/topic/159443-1123-spectra-visual-compilation-162-horizons-26th-july-2022/)
+      - [TUFX- Post Processing](https://forum.kerbalspaceprogram.com/index.php?/topic/192212-19x-tufx-post-processing/)
+      - [Parallax](https://forum.kerbalspaceprogram.com/index.php?/topic/209714-112x-parallax-pbr-terrain-and-surface-objects-202/page/83/#comment-4174156)
+   
 
 # FAQs
-![Imgur](https://i.imgur.com/gwV8mR9.png)
+![Imgur](https://i.imgur.com/cWaEZiR.png)
 1. **Does it replace the Kerbol system or add a new system?**  
 It adds a new system without any change to the Kerbol system. But it also offers home switch options which allow you to move KSC to habitable planets in Kcalbeloh system. For more information on home switch, [click here](https://github.com/jcyuan06/Kcalbeloh-System#home-switch).
 
@@ -152,6 +167,6 @@ Yes, it is compatible with most visual mods for stock system, such as Astronomer
 A wormhole is a structure linking disparate points in spacetime. In KSP, a wormhole functions like a celestial body with its mass and SOI. To traverse the wormhole, you need to lower your periapsis below 30 km. After you reach the periapsis, you will jump to the other star system.
 
 # Contact
-![Imgur](https://i.imgur.com/eFFC7Fe.png)
+![Imgur](https://i.imgur.com/5xWsKua.png)
 [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/203753-wip-112x-kcalbeloh-system-planet-pack-beta-12-a-journey-to-a-black-hole-may-02-2022/)  
 [Discord Server](https://discord.gg/Crmy8KgqK2) 
