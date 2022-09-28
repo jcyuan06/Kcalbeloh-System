@@ -1,4 +1,4 @@
-# Kcalbeloh System
+# Kcalbeloh System官方中文文档
 
 ![Imgur](https://i.imgur.com/KFlHVFt.png)
 Kcalbeloh System是一个坎巴拉太空计划的星系Mod，在游戏中添加了一个高质量的黑洞星系，其中包括一个巨大的黑洞和围绕它运行的三个恒星系统，以及25颗行星和卫星。  
