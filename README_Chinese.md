@@ -24,7 +24,7 @@ Mod的正式发布并不意味着开发的结束。我之后仍会保持必要�
       - [搬家(字面意思）](https://github.com/jcyuan06/Kcalbeloh-System#home-switch)
       - [星系距离](https://github.com/jcyuan06/Kcalbeloh-System#distance)
       - [尺寸缩放](https://github.com/jcyuan06/Kcalbeloh-System#rescale)
-   - [**推荐的Mods**](https://github.com/jcyuan06/Kcalbeloh-System#recommended-mods)
+   - [**推荐的Mod**](https://github.com/jcyuan06/Kcalbeloh-System#recommended-mods)
    - [**常见问题**](https://github.com/jcyuan06/Kcalbeloh-System#faqs)
    - [**联系方式**](https://github.com/jcyuan06/Kcalbeloh-System#contacts)
    - [**许可证**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/GameData/KcalbelohSystem/License.md#attribution-noncommercial-noderivatives-40-international)
@@ -73,7 +73,7 @@ Mod的正式发布并不意味着开发的结束。我之后仍会保持必要�
    * ModuleManager.4.2.2.dll
 # 兼容性
 ![Imgur](https://i.imgur.com/VVoMOzg.png)
-Kcalbeloh System为以下mod提供专门的配置:  
+Kcalbeloh System为以下mod提供的配置:  
    - Environmental Visual Enhancements
    - Scatterer
    - Parallax (需要安装 Parallax Stock Textures)
@@ -107,70 +107,70 @@ Kcalbeloh System不兼容:
    - `False`: 关闭虫洞.
 
 ### 搬家
-`HomeSwitch = `: 是否将母星从Kerbin切换为Suluco或Efil
-   - `False`: (default) keep KSC on Kerbin.
-   - `Suluco`: move KSC and other launch sites and airfields to Suluco.
-   - `Efil`: move KSC and other launch sites and airfields to Efil.
-   - Home switch is NOT compatible with system-replacement planet mods (Beyond Home, GPP, RSS, etc).
-   - Do **NOT** load any saved game after changing home switch setting.
+`HomeSwitch = `: 是否将航天中心从Kerbin转移至Suluco或Efil
+   - `False`: (默认) 不转移.
+   - `Suluco`: 将KSC及其他发射场转移至Suluco.
+   - `Efil`: 将KSC及其他发射场转移至Efil.
+   - 此功能与替换原版星系的Mod不兼容(如Beyond Home, GPP, RSS等).
+   - 调整此设置后不要试图加载已有的存档。
 
-### Distance
-`DistanceFactor =`: moving Kcalbeoh System closer or further to stock system.  
-   - `1`: (default) keep the default distance (271.8 Tm).
-   - `0.1`: 0.1x default distance.
-   - `10`: 10x default distance.
-   - `100`: 100x default distance.
+### 星系距离
+`DistanceFactor =`: 调整Kcalbeoh System与原版星系的距离.  
+   - `1`: (默认)保持默认距离(271.8 Tm).
+   - `0.1`: 0.1倍默认距离.
+   - `10`: 10倍默认距离.
+   - `100`: 100倍默认距离.
 
-### Rescale
-`Rescale = `: rescale the system to 2.5x or 10x size.  
-   - `1`: (default) No rescales applied. It has the same scale with stock system.
-   - `2.5`: 2.5x scale. If JNSQ is installed, this value will be forced.
-   - `10`: 10x scale (realistic scale). If RealSolarSystem is installed, this option will be forced.
-   - This setting needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
-   - Rescale only applies to celectial bodies from this mod.
+### 缩放
+`Rescale = `: 将星球尺寸放大至2.5倍或10倍.  
+   - `1`: (默认) 不进行缩放(原版尺寸).
+   - `2.5`: 2.5倍放大(JNSQ尺寸). 如果安装了JNSQ，这个选项会强制打开.
+   - `10`: 10倍放大 (真实尺寸). 如果安装了RSS，这个选项会强制打开.
+   - 此项设置需要安装[Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions)方可生效.
+   - 此项设置只会应用于此mod添加的星球.
 
-# Recommended Mods
+# 推荐的Mod
 ![Imgur](https://i.imgur.com/jFkzu48.png)
-   -  **Propulsion**
+   -  **推进器相关**
       -  [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/) 
       - [Far Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/)  
-      or
+      或
       - [KSP Interstellar Extended](https://forum.kerbalspaceprogram.com/index.php?/topic/173818-181-1122-ksp-interstellar-extended-1295-release-thread/)
    
-   - **Quality of Life**
+   - **游戏体验相关**
       - [Better Time Warp](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)  
    
-   - **Manufacturing**
+   - **外星建造相关**
       - [Extraplanetary Launchpads](https://forum.kerbalspaceprogram.com/index.php?/topic/54284-112-extraplanetary-launchpads-v6993/)  
       - [SandCastle](https://forum.kerbalspaceprogram.com/index.php?/topic/201137-min-ksp-112x-sandcastle-3d-printing-for-parts-and-vessels/)
    
-   - **Visual**
-      - [Astronomer's Visual Pack](https://forum.kerbalspaceprogram.com/index.php?/topic/160878-ksp-1123-astronomers-visual-pack-beyond-v413-july-17th-2022/) or [Spectra](https://forum.kerbalspaceprogram.com/index.php?/topic/159443-1123-spectra-visual-compilation-162-horizons-26th-july-2022/)
+   - **美化相关**
+      - [Astronomer's Visual Pack](https://forum.kerbalspaceprogram.com/index.php?/topic/160878-ksp-1123-astronomers-visual-pack-beyond-v413-july-17th-2022/) 或 [Spectra](https://forum.kerbalspaceprogram.com/index.php?/topic/159443-1123-spectra-visual-compilation-162-horizons-26th-july-2022/)
       - [TUFX- Post Processing](https://forum.kerbalspaceprogram.com/index.php?/topic/192212-19x-tufx-post-processing/)
       - [Parallax](https://forum.kerbalspaceprogram.com/index.php?/topic/209714-112x-parallax-pbr-terrain-and-surface-objects-202/page/83/#comment-4174156)
    
 
-# FAQs
+# 常见问题
 ![Imgur](https://i.imgur.com/cWaEZiR.png)
-1. **Does it replace the Kerbol system or add a new system?**  
-It adds a new system without any change to the Kerbol system. But it also offers home switch options which allow you to move KSC to habitable planets in Kcalbeloh system. For more information on home switch, [click here](https://github.com/jcyuan06/Kcalbeloh-System#home-switch).
+1. **这个Mod是添加了一个系外星系还是替换了原版星系？**  
+添加了系外星系，且几乎不对原版星系有改动。但如果您想在新星系直接开始游戏，Mod提供了相关设置，可以选择新星系的宜居星球作为母星(Suluco或Efil),详情可以参考[这里](https://github.com/jcyuan06/Kcalbeloh-System#home-switch).
 
-2. **Is it based on the movie Interstellar?**  
-Yes, but no. Although some ideas of the mod are inspired by Interstellar, the goal of the mod is not to facsimile the Gargantua system from Interstellar, but to create a unique star system.
+2. **这个Mod是基于《星际穿越》制作的吗？**  
+不完全是。尽管有部分内容致敬了《星际穿越》，但这个Mod的目标不是复刻卡冈图亚星系，而是创造一个独特的星系。
 
-3. **Is it compatible with other planet packs?**  
-Yes, it is compatible with most planet packs but it still needs further testing. Let me know if you have any issues.
+3. **它与XXX星球包兼容吗？**  
+它与绝大多数星球包兼容。
 
-4. **Is it compatible with Real Solar System?**  
-Yes, but you need to download a config file. See [here](https://github.com/jcyuan06/Kcalbeloh-System#how-to-make-it-compatible-with-realsolarsystem).
+4. **它支持真实太阳系(RSS)吗？**  
+是的，不过需要进行一步配置. [详情看这里](https://github.com/jcyuan06/Kcalbeloh-System#how-to-make-it-compatible-with-realsolarsystem).
 
-5. **Is it compatible with other visual mods?**  
-Yes, it is compatible with most visual mods for stock system, such as Astronomer's Visual Pack, Spectra, and Stock Visual Enhancement.
+5. **它与其他美化包兼容吗？**  
+是的，它与大部分主流美化包兼容，比如Astronomer's Visual Pack, Spectra, and Stock Visual Enhancement.
 
-6. **What is a wormhole? How can I use it?**  
-A wormhole is a structure linking disparate points in spacetime. In KSP, a wormhole functions like a celestial body with its mass and SOI. To traverse the wormhole, you need to lower your periapsis below 30 km. After you reach the periapsis, you will jump to the other star system.
+6. **虫洞是什么？如何使用虫洞？**  
+与《星际穿越》中的虫洞类似，你可以通过虫洞瞬间转移至新的星系。在游戏中，虫洞的性质类似于天体，具有质量和引力范围。要穿越虫洞，您需要将近点降低到30km以下。越过近点后，您将跳转到另一个星系。
 
-# Contact
+# 联系方式
 ![Imgur](https://i.imgur.com/5xWsKua.png)
-[KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/203753-wip-112x-kcalbeloh-system-planet-pack-beta-12-a-journey-to-a-black-hole-may-02-2022/)  
-[Discord Server](https://discord.gg/Crmy8KgqK2) 
+[KSP官方论坛](https://forum.kerbalspaceprogram.com/index.php?/topic/203753-wip-112x-kcalbeloh-system-planet-pack-beta-12-a-journey-to-a-black-hole-may-02-2022/)  
+[Discord社群](https://discord.gg/Crmy8KgqK2) 
