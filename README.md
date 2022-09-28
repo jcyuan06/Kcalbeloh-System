@@ -27,6 +27,7 @@ Happy launchings!
    - [**FAQs**](https://github.com/jcyuan06/Kcalbeloh-System#faqs)
    - [**Contacts**](https://github.com/jcyuan06/Kcalbeloh-System#contacts)
    - [**License**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/GameData/KcalbelohSystem/License.md#attribution-noncommercial-noderivatives-40-international)
+   - [**中文版文档**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#kcalbeloh-system%E5%AE%98%E6%96%B9%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3) (Chinese Version)
 # System Map
 <details>
    <summary> Are you sure you want to spoil it? </summary>
