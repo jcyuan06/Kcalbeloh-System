@@ -127,8 +127,16 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - `2.5`: 2.5x scale. If JNSQ is installed, this value will be forced.
    - `10`: 10x scale (realistic scale). If RealSolarSystem is installed, this option will be forced.
    - This setting needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
-   - Rescale only applies to celectial bodies from this mod.
+   - When homeswitch is on, rescale is automatically off because it can cause issues when enabling both.
+`RescaleAll = `: Whether to apply rescale to all celestial bodies in game.
+   - `True`: (default) Rescale applied to all celestial bodies in game, including Kerbol system, Kcalbeloh system, and all the other planet packs.
+   - `False`:	Only apply rescale to Kcalbeloh system. If JNSQ or RSS is installed, this option will be forced.
 
+### Skybox
+`DisableSkybox = `: Whether to disable the skybox bundled with Kcalbeloh System.
+   - `True`: Disable the skybox bundled with Kcalbeloh System. Set it to True if you don't like this skybox.
+   - `False`:	(default) Use the skybox bundled with Kcalbeloh System.
+   
 # Recommended Mods
 ![Imgur](https://i.imgur.com/jFkzu48.png)
    -  **Propulsion**
