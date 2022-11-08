@@ -23,6 +23,7 @@ Happy launchings!
       - [Home Switch](https://github.com/jcyuan06/Kcalbeloh-System#home-switch)
       - [Distance](https://github.com/jcyuan06/Kcalbeloh-System#distance)
       - [Rescale](https://github.com/jcyuan06/Kcalbeloh-System#rescale)
+      - [Skybox](https://github.com/jcyuan06/Kcalbeloh-System#skybox)
    - [**Recommended Mods**](https://github.com/jcyuan06/Kcalbeloh-System#recommended-mods)
    - [**FAQs**](https://github.com/jcyuan06/Kcalbeloh-System#faqs)
    - [**Contacts**](https://github.com/jcyuan06/Kcalbeloh-System#contacts)
