@@ -28,7 +28,7 @@ Unless specified, all content of [Kcalbeloh System Planet Pack](https://forum.ke
 2. The mod [Kopernicus Expansion Continued-er](https://forum.kerbalspaceprogram.com/index.php?/topic/195844-110-111-112-alpha-kopernicus-expansion-continued-er/) in the following folder is redistributed under the GNU General Public License.
     > GameData/KopernicusExpansion
 3. The plugin [Niako's Kopernicus Utilities](https://forum.kerbalspaceprogram.com/index.php?/topic/207768-112-niakos-kopernicus-utilities-smoother-heightmaps/) in the following path is redistributed under the MIT license:
-    > GameData/KcalbelohSystem/Plugins/VertexMitchellNetravaliHeightMap.dll
+    > GameData/000_NiakoUtils
 4. The plugins in the following folders are created by [Sigma88](https://forum.kerbalspaceprogram.com/index.php?/profile/113260-sigma88/) and redistributed under their own licenses:
     > GameData/KcalbelohSystem/Plugins/SigmaLoadingScreens  
     > GameData/KcalbelohSystem/Plugins/SigmaReplacementsSkyBox
