@@ -14,6 +14,7 @@ Mod的正式发布并不意味着开发的结束。我之后仍会保持必要�
 ## 目录
    - [**星图**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%98%9F%E5%9B%BE)
    - [**安装教程**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)
+      - [配置要求](https://github.com/jcyuan06/Kcalbeloh-System#system-requirements)
       - [手动安装](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85)
       - [安装完成后需要做的 (一定要看啊啊啊!)](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8E%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%B8%80%E5%AE%9A%E8%A6%81%E7%9C%8B%E5%95%8A%E5%95%8A%E5%95%8A)
       - [检查清单](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%A3%80%E6%9F%A5%E6%B8%85%E5%8D%95)
@@ -24,6 +25,7 @@ Mod的正式发布并不意味着开发的结束。我之后仍会保持必要�
       - [搬家(字面意思）](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%90%AC%E5%AE%B6)
       - [星系距离](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%98%9F%E7%B3%BB%E8%B7%9D%E7%A6%BB)
       - [尺寸缩放](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E7%BC%A9%E6%94%BE)
+      - [星空背景贴图](https://github.com/jcyuan06/Kcalbeloh-System#skybox)
    - [**推荐的Mod**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%8E%A8%E8%8D%90%E7%9A%84mod)
    - [**常见问题**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
    - [**联系方式**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F)
@@ -38,14 +40,18 @@ Mod的正式发布并不意味着开发的结束。我之后仍会保持必要�
  
 # 安装教程
 ![Imgur](https://i.imgur.com/Jx0EVs1.png)
-
+### 配置要求
+   * 操作系统: 仅限Windows
+   * 内存: 8 GB
+   * 显卡: 1-2GB显存
 ### 手动安装
 1. **安装Kcalbeloh System本体**
    * 下载地址 (任意一个):
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
       - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0) (为方便国内玩家)
-   * 解压压缩包，将解压后`/GameData`文件夹中的所有内容放到`[KSP安装目录]/GameData/`文件夹内.
    * 如果你要更新这个mod，一定要将旧版本删干净再安装新版！  
+   * 解压压缩包，将解压后得到的`/GameData`目录中的所有内容放到`[KSP安装目录]/GameData/`文件夹内. (共有三个文件夹: `000_NiakoUtils`, `KcalbelohSystem`, `KopernicusExpansion`)
+   
 2. **安装依赖项（必要）**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/)
    * [**Singularity**](https://forum.kerbalspaceprogram.com/index.php?/topic/193709-wip18x-112x-singularity-black-hole-shaders/#comment-3782330) 
@@ -62,6 +68,7 @@ Mod的正式发布并不意味着开发的结束。我之后仍会保持必要�
 ### 检查清单
    一个正确完整的安装后，你的GameData文件夹应**至少**包括如下内容：
    * 000_Harmony
+   * 000_NiakoUtils
    * EnvironmentalVisualEnhancements
    * KcalbelohSystem
    * Kopernicus
@@ -101,12 +108,12 @@ Kcalbeloh System不兼容:
 ![Imgur](https://i.imgur.com/SIjy14c.png)
 进入`Kerbal Space Program/GameData/KcalbelohSystem/`文件夹， 打开这个文件`Kcalbeloh System Settings.cfg`.
 
-### 虫洞开关
+### 虫洞
 `Wormholes = `: 是否启用连接原版星系和Kcalbeloh星系的虫洞
    - `True`: (默认) 开启虫洞.
    - `False`: 关闭虫洞.
 
-### 搬家
+### KSC迁移
 `HomeSwitch = `: 是否将航天中心从Kerbin转移至Suluco或Efil
    - `False`: (默认) 不转移.
    - `Suluco`: 将KSC及其他发射场转移至Suluco.
@@ -127,8 +134,17 @@ Kcalbeloh System不兼容:
    - `2.5`: 2.5倍放大(JNSQ尺寸). 如果安装了JNSQ，这个选项会强制打开.
    - `10`: 10倍放大 (真实尺寸). 如果安装了RSS，这个选项会强制打开.
    - 此项设置需要安装[Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions)方可生效.
-   - 此项设置只会应用于此mod添加的星球.
+   - 如果开启了HomeSwitch, 此选项将强制关闭, 因为两项同时开启会造成Bug.
+  
+`RescaleAll = `: 是否将星球缩放作用于全部星球.
+   - `True`: (默认) 将游戏中所有星球的尺寸进行缩放, 包括原版星系, Kcalbeloh星系, 以及其他任何Mod添加的星系.
+   - `False`: 仅对Kcalbeloh星系进行缩放. 如果安装了JNSQ或RSS, 这个选项将被强制为否.
 
+### 星空背景贴图
+`DisableSkybox = `: 是否禁用Kcalbeloh System自带的星空背景贴图.
+   - `True`: 禁用Kcalbeloh System自带的星空背景贴图. (如果你不喜欢这个背景贴图可选择禁用).
+   - `False`:	(默认) 使用Kcalbeloh System自带的星空背景贴图.
+   
 # 推荐的Mod
 ![Imgur](https://i.imgur.com/jFkzu48.png)
    -  **推进器相关**
@@ -139,6 +155,7 @@ Kcalbeloh System不兼容:
    
    - **游戏体验相关**
       - [Better Time Warp](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)  
+      - [Transfer Window Planner](https://forum.kerbalspaceprogram.com/index.php?/topic/84005-112x-transfer-window-planner-v1800-april-11/)
    
    - **外星建造相关**
       - [Extraplanetary Launchpads](https://forum.kerbalspaceprogram.com/index.php?/topic/54284-112-extraplanetary-launchpads-v6993/)  
