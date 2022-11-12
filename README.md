@@ -13,6 +13,7 @@ Happy launchings!
 ## Contents
    - [**System Map**](https://github.com/jcyuan06/Kcalbeloh-System#system-map)
    - [**Installation**](https://github.com/jcyuan06/Kcalbeloh-System#installation)
+      - [System Requirements](https://github.com/jcyuan06/Kcalbeloh-System#system-requirements)
       - [Install Manually](https://github.com/jcyuan06/Kcalbeloh-System#install-manually)
       - [After Installation (Please read!)](https://github.com/jcyuan06/Kcalbeloh-System#after-installation-please-read)
       - [Installation Checklist](https://github.com/jcyuan06/Kcalbeloh-System#installation-checklist)
@@ -39,14 +40,18 @@ Happy launchings!
  
 # Installation
 ![Imgur](https://i.imgur.com/Jx0EVs1.png)
+### System Requirements
+   * OS: Windows Only
+   * Memory: 8 GB RAM
+   * Graphics: 1-2 GB VRAM
 
 ### Install Manually
 1. **Install Kcalbeloh System**
    * Download (choose one):
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
       - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0) (for Chinese players)
-   * Extract the zip file and put all the contents in `/GameData` to your `[KSP installation folder]/GameData/` folder.
-   * If you are updating this mod, make sure you have deleted the previous version completely before installing the new version.  
+   * Delete the privious version of Kcalbeloh System completely if you have an older version installed.
+   * Extract the zip file and put all the three folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem` and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
 2. **Install Dependencies**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/): for creating custom celestial bodies.
    * [**Singularity**](https://forum.kerbalspaceprogram.com/index.php?/topic/193709-wip18x-112x-singularity-black-hole-shaders/#comment-3782330): for blackhole and wormhole shaders.   
@@ -61,8 +66,9 @@ In KSP 1.12.x, the stock maneuver planning tool can cause severe lag/stutter in 
    
 ![Imgur](https://i.imgur.com/z89SQdm.gif)
 ### Installation Checklist
-   After a complete installation, the GameData folder should at least have the following contents:
+   After a complete installation, the GameData folder should AT LEAST have the following contents:
    * 000_Harmony
+   * 000_NiakoUtils
    * EnvironmentalVisualEnhancements
    * KcalbelohSystem
    * Kopernicus
@@ -129,6 +135,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - `10`: 10x scale (realistic scale). If RealSolarSystem is installed, this option will be forced.
    - This setting needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
    - When homeswitch is on, rescale is automatically off because it can cause issues when enabling both.
+   
 `RescaleAll = `: Whether to apply rescale to all celestial bodies in game.
    - `True`: (default) Rescale applied to all celestial bodies in game, including Kerbol system, Kcalbeloh system, and all the other planet packs.
    - `False`:	Only apply rescale to Kcalbeloh system. If JNSQ or RSS is installed, this option will be forced.
@@ -141,13 +148,14 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
 # Recommended Mods
 ![Imgur](https://i.imgur.com/jFkzu48.png)
    -  **Propulsion**
-      -  [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/) 
+      - [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/) 
       - [Far Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/)  
       or
       - [KSP Interstellar Extended](https://forum.kerbalspaceprogram.com/index.php?/topic/173818-181-1122-ksp-interstellar-extended-1295-release-thread/)
    
    - **Quality of Life**
-      - [Better Time Warp](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)  
+      - [Better Time Warp](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)
+      - [Transfer Window Planner](https://forum.kerbalspaceprogram.com/index.php?/topic/84005-112x-transfer-window-planner-v1800-april-11/)
    
    - **Manufacturing**
       - [Extraplanetary Launchpads](https://forum.kerbalspaceprogram.com/index.php?/topic/54284-112-extraplanetary-launchpads-v6993/)  
