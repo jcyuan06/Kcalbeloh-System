@@ -50,7 +50,7 @@ Happy launchings!
    * Download (choose one):
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
       - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0) (for Chinese players)
-   * Delete the privious version of Kcalbeloh System completely if you have an older version installed.
+   * Delete the previous version of Kcalbeloh System completely if you have an older version installed.
    * Extract the zip file and put all the three folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem` and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
 2. **Install Dependencies**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/): for creating custom celestial bodies.
