@@ -1,13 +1,15 @@
 # Kcalbeloh System
 
 ![Imgur](https://i.imgur.com/KFlHVFt.png)
-Kcalbeloh System is a planet pack adding a high quality black hole system,  which includes a giant black hole and three star systems orbiting around it, and 25 planets and moons.
+Kcalbeloh System is a planet pack adding an entirely new black hole system with 30 unique celestial bodies, including a super-massive black hole, 4 stars, 15 planets, and 10 moons and asteroids, each with its own unique set of challenges and features.
 
-After more than a year of development, I'm glad to announce that Kcalbeloh System has finally come to the official release. I tried my best to make each celestial bodies unique, high quality and worth exploring. Most celestial bodies have been revamped several times before they appeared as they are today. Also, I tried my best to make this system with as much variety as possible. Through this mod, I hope I am able to share the beauty of the universe with you.
+This planet mod provides a diverse range of environments for Kerbals to explore, such as a planet with surface torn apart by tidal force, binary gas giants with multiple moons, a planet tidally locked by its parent star, and a small moon with a twisted surface. Like the movie Interstellar, there are also a pair of wormholes available for Kerbals to jump between Kerbol system and Kcalbeloh system, adding another layer of exploration and excitement. 
 
-I really appreciate everyone who has followed this mod. Also thanks to everyone who has provided suggestions, bug reports, or any other forms of help.
+If you're looking for an exciting and rewarding space adventure, Kcalbeloh System is an excellent addition to Kerbal Space Program, providing tens or even hundreds of hours of entertainment.
 
-The official release doesn't mean the end of the development. I have some plans for future updates to make it better. If you have a cool idea and want to contribute to this project, feel free to let me know.
+I really appreciate everyone who has followed this mod. Also thanks to everyone who has provided suggestions, bug reports, or any other forms of help. Also, if you have a cool idea and want to contribute to this project, feel free to let me know.
+
+Get ready to blast off into the cosmos and embark on a thrilling journey through the Kcalbeloh System.
 
 Happy launchings!
 ## Contents
