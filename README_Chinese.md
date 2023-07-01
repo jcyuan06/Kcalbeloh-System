@@ -15,6 +15,7 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    - [**星图**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%98%9F%E5%9B%BE)
    - [**安装教程**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)
       - [配置要求](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E9%85%8D%E7%BD%AE%E8%A6%81%E6%B1%82)
+      - [通过CKAN安装(推荐)](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E9%80%9A%E8%BF%87ckan%E5%AE%89%E8%A3%85%E6%8E%A8%E8%8D%90)
       - [手动安装](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85)
       - [检查清单](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%A3%80%E6%9F%A5%E6%B8%85%E5%8D%95)
    - [**兼容性**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%85%BC%E5%AE%B9%E6%80%A7)
