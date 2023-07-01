@@ -51,11 +51,12 @@ Happy launchings!
    Please notice that only stable versions are posted on CKAN. If you want to download the test versions, you still need to install manually.
 ### Install Manually
 1. **Install Kcalbeloh System**
-   * Download (choose one):
+   * If you have an older version of the Kcalbeloh System installed, please completely delete it before proceeding with the new version.
+   * Download `Kcalbeloh-System-(v1.x.x).zip` from one of the sources:
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
       - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0) (for Chinese players)
-   * Delete the previous version of Kcalbeloh System completely if you have an older version installed.
    * Extract the zip file and put all the three folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem` and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
+   * * Do **NOT** download `KcalbelohExtras.zip` unless you know what it is used for.
 2. **Install Dependencies**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/): for creating custom celestial bodies.
    * [**Singularity**](https://forum.kerbalspaceprogram.com/index.php?/topic/193709-wip18x-112x-singularity-black-hole-shaders/#comment-3782330): for blackhole and wormhole shaders.   
@@ -99,9 +100,10 @@ Kcalbeloh System is NOT compatible with:
 
 ### How to make it compatible with RealSolarSystem?
 1. Install RSS first.
-2. Download `Extras.zip` on the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases) and extract.
+2. Download `KcalbelohExtras.zip` on the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases) and extract.
 3. Find 'RSS support.zip', extract, and put everything inside the extracted 'GameData' folder to your KSP 'GameData' folder, and replace the original file.
-4. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
+4. * Do **NOT** install other files unless you know what it is used for.
+5. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
 
 Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
 
