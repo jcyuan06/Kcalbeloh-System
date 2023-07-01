@@ -16,6 +16,7 @@ Happy launchings!
    - [**System Map**](https://github.com/jcyuan06/Kcalbeloh-System#system-map)
    - [**Installation**](https://github.com/jcyuan06/Kcalbeloh-System#installation)
       - [System Requirements](https://github.com/jcyuan06/Kcalbeloh-System#system-requirements)
+      - [Install via CKAN (Recommended)](https://github.com/jcyuan06/Kcalbeloh-System#install-via-ckan-Recommended)
       - [Install Manually](https://github.com/jcyuan06/Kcalbeloh-System#install-manually)
       - [After Installation (Please read!)](https://github.com/jcyuan06/Kcalbeloh-System#after-installation-please-read)
       - [Installation Checklist](https://github.com/jcyuan06/Kcalbeloh-System#installation-checklist)
@@ -46,7 +47,9 @@ Happy launchings!
    * OS: Windows Only
    * Memory: 8 GB RAM
    * Graphics: 1-2 GB VRAM
-
+### Install via CKAN (Recommended)
+   It's easier and less possible to have installation mistakes to install Kcalbeloh System via [CKAN](https://forum.kerbalspaceprogram.com/index.php?/topic/197082-ckan-the-comprehensive-kerbal-archive-network-v1320-kepler-ksp-2-support/). 
+   Please notice that only stable versions are posted on CKAN. If you want to download the test versions, you still need to install manually.
 ### Install Manually
 1. **Install Kcalbeloh System**
    * Download (choose one):
@@ -61,7 +64,7 @@ Happy launchings!
 3. **Install Visuals**  
 The planet pack works fine without visual mods, but it will lose a large part of its aesthetic.
    * [**EVE Redux**](https://forum.kerbalspaceprogram.com/index.php?/topic/196411-19-112-eve-redux-performance-enhanced-eve-maintenance-v11151-07112021/): for clouds, dust storms, and auroras.
-   * [**Scatterer**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main): for realistic atmosphere, oceans, and sun flares.  
+   * [**Scatterer**](https://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip19x-112x-scatterer-atmospheric-scattering-00838-14082022-scattering-improvements-in-game-atmo-generation-and-multi-sun-support/): for realistic atmosphere, oceans, and sun flares.  
 ### After Installation (Please read!)
 In KSP 1.12.x, the stock maneuver planning tool can cause severe lag/stutter in planet mods, so it's strongly recommended to disable it:
    * Press ESC in game and press the 'Settings' button. Then disable the maneuver tool in the setting menu, under KSP Community Fixes section. See below:
