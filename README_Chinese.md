@@ -9,8 +9,6 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
 
 我非常感谢每个关注这个Mod的人。同时感谢所有提供建议、错误报告或任何其他形式帮助的人。如果您有一个很酷的想法，想为这个项目做出贡献，请随时与我联系。
 
-准备好冲向宇宙，开始一场激动人心的黑洞之旅吧！
-
 祝各位发射愉快！ 
 
 ## 目录
@@ -18,7 +16,6 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    - [**安装教程**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)
       - [配置要求](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E9%85%8D%E7%BD%AE%E8%A6%81%E6%B1%82)
       - [手动安装](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85)
-      - [安装完成后需要做的 (一定要看啊啊啊!)](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8E%E9%9C%80%E8%A6%81%E5%81%9A%E7%9A%84%E4%B8%80%E5%AE%9A%E8%A6%81%E7%9C%8B%E5%95%8A%E5%95%8A%E5%95%8A)
       - [检查清单](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%A3%80%E6%9F%A5%E6%B8%85%E5%8D%95)
    - [**兼容性**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%85%BC%E5%AE%B9%E6%80%A7)
       - [RSS的兼容](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%A6%82%E4%BD%95%E4%B8%8E%E7%9C%9F%E5%AE%9E%E5%A4%AA%E9%98%B3%E7%B3%BBrss%E5%85%BC%E5%AE%B9)
@@ -46,6 +43,9 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    * 操作系统: 仅限Windows
    * 内存: 8 GB
    * 显卡: 1-2GB显存
+### 通过CKAN安装(推荐)
+   通过[CKAN](https://forum.kerbalspaceprogram.com/index.php?/topic/197082-ckan-the-comprehensive-kerbal-archive-network-v1320-kepler-ksp-2-support/)安装Kcalbeloh系统更容易且不太可能出现安装错误.
+   请注意, CKAN上仅发布稳定版本. 如果您想下载测试版本, 仍然需要手动安装.
 ### 手动安装
 1. **安装Kcalbeloh System本体**
    * 下载地址 (任意一个):
@@ -62,11 +62,7 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    如不安装美化，这个星系包仍可以正常运行。但强烈推荐安装，否则你将失去大部分看风景的体验。
    * [**EVE Redux**](https://forum.kerbalspaceprogram.com/index.php?/topic/196411-19-112-eve-redux-performance-enhanced-eve-maintenance-v11151-07112021/)
    * [**Scatterer**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main)
-### 安装完成后需要做的（一定要看啊啊啊！）
-在KSP 1.12版本中, 原版的机动节点自动规划工具会导致星系mod的严重卡顿，因此强烈建议在探索外星系的时候关掉，做法如下：
-   * 游戏中按ESC，点击“设置”按钮，下拉找到对应的选项（在KSP Community Fixes部分），如下图：
-   
-![Imgur](https://i.imgur.com/z89SQdm.gif)
+
 ### 检查清单
    一个正确完整的安装后，你的GameData文件夹应**至少**包括如下内容：
    * 000_Harmony
@@ -100,9 +96,10 @@ Kcalbeloh System不兼容:
    - Principia
 
 ### 如何与真实太阳系(RSS)兼容？
-1. 在[这里](https://github.com/jcyuan06/Kcalbeloh-System/releases)下载 `RSSKopernicusSettings.cfg`  
-2. 将这个文件放入`Kerbal Space Program/GameData/RealSolarSystem/`文件夹中并替换原文件。 
-3. 安装 [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
+1. 先安装RSS.
+2. 在[这里](https://github.com/jcyuan06/Kcalbeloh-System/releases)下载 `Extras.zip`并解压.  
+3. 解压`RSS support.zip`并将解压得到的GameData中所有内容复制到KSP的GameData文件夹, 替换原有文件. 
+4. 安装 [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
 
 注：安装了RSS后本mod会强制放大10倍尺寸以匹配真实尺寸。
 
@@ -116,16 +113,17 @@ Kcalbeloh System不兼容:
    - `False`: 关闭虫洞.
 
 ### KSC迁移
-`HomeSwitch = `: 是否将航天中心从Kerbin转移至Suluco或Efil
-   - `False`: (默认) 不转移.
-   - `Suluco`: 将KSC及其他发射场转移至Suluco.
-   - `Efil`: 将KSC及其他发射场转移至Efil.
+`HomeSwitch = `: 是否将母星切换为Suluco或Efil. 所有发射场和机场将移至新的星球.
+   - `False`: (默认) 不切换.
+   - `Suluco`: 选择Suluco为母星.
+   - `Efil`: 选择Efil为母星.
    - 此功能与替换原版星系的Mod不兼容(如Beyond Home, GPP, RSS等).
-   - 调整此设置后不要试图加载已有的存档。
+   - 调整此设置后**不建议**加载已有的存档, 有可能会丢失部分载具。
 
 ### 星系距离
 `DistanceFactor =`: 调整Kcalbeoh System与原版星系的距离.  
    - `1`: (默认)保持默认距离(271.8 Tm).
+   - `0`: Kerbol将绕Kcalbeloh运行.
    - `0.1`: 0.1倍默认距离.
    - `10`: 10倍默认距离.
    - `100`: 100倍默认距离.
@@ -136,12 +134,7 @@ Kcalbeloh System不兼容:
    - `2.5`: 2.5倍放大(JNSQ尺寸). 如果安装了JNSQ，这个选项会强制打开.
    - `10`: 10倍放大 (真实尺寸). 如果安装了RSS，这个选项会强制打开.
    - 此项设置需要安装[Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions)方可生效.
-   - 如果开启了HomeSwitch, 此选项将强制关闭, 因为两项同时开启会造成Bug.
-  
-`RescaleAll = `: 是否将星球缩放作用于全部星球.
-   - `True`: (默认) 将游戏中所有星球的尺寸进行缩放, 包括原版星系, Kcalbeloh星系, 以及其他任何Mod添加的星系.
-   - `False`: 仅对Kcalbeloh星系进行缩放. 如果安装了JNSQ或RSS, 这个选项将被强制为否.
-
+     
 ### 星空背景贴图
 `DisableSkybox = `: 是否禁用Kcalbeloh System自带的星空背景贴图.
    - `True`: 禁用Kcalbeloh System自带的星空背景贴图. (如果你不喜欢这个背景贴图可选择禁用).
