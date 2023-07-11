@@ -18,7 +18,6 @@ Happy launchings!
       - [System Requirements](https://github.com/jcyuan06/Kcalbeloh-System#system-requirements)
       - [Install via CKAN (Recommended)](https://github.com/jcyuan06/Kcalbeloh-System#install-via-ckan-Recommended)
       - [Install Manually](https://github.com/jcyuan06/Kcalbeloh-System#install-manually)
-      - [After Installation (Please read!)](https://github.com/jcyuan06/Kcalbeloh-System#after-installation-please-read)
       - [Installation Checklist](https://github.com/jcyuan06/Kcalbeloh-System#installation-checklist)
    - [**Compatibility**](https://github.com/jcyuan06/Kcalbeloh-System#compatibility)
       - [RSS Compatibility](https://github.com/jcyuan06/Kcalbeloh-System#how-to-make-it-compatible-with-realsolarsystem)
@@ -52,11 +51,12 @@ Happy launchings!
    Please notice that only stable versions are posted on CKAN. If you want to download the test versions, you still need to install manually.
 ### Install Manually
 1. **Install Kcalbeloh System**
-   * Download (choose one):
+   * If you have an older version of the Kcalbeloh System installed, please completely delete it before proceeding with the new version.
+   * Download `Kcalbeloh-System-(v1.x.x).zip` from one of the sources:
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
       - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0) (for Chinese players)
-   * Delete the previous version of Kcalbeloh System completely if you have an older version installed.
    * Extract the zip file and put all the three folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem` and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
+   * Do **NOT** download `KcalbelohExtras.zip` unless you know what it is used for.
 2. **Install Dependencies**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/): for creating custom celestial bodies.
    * [**Singularity**](https://forum.kerbalspaceprogram.com/index.php?/topic/193709-wip18x-112x-singularity-black-hole-shaders/#comment-3782330): for blackhole and wormhole shaders.   
@@ -65,11 +65,7 @@ Happy launchings!
 The planet pack works fine without visual mods, but it will lose a large part of its aesthetic.
    * [**EVE Redux**](https://forum.kerbalspaceprogram.com/index.php?/topic/196411-19-112-eve-redux-performance-enhanced-eve-maintenance-v11151-07112021/): for clouds, dust storms, and auroras.
    * [**Scatterer**](https://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip19x-112x-scatterer-atmospheric-scattering-00838-14082022-scattering-improvements-in-game-atmo-generation-and-multi-sun-support/): for realistic atmosphere, oceans, and sun flares.  
-### After Installation (Please read!)
-In KSP 1.12.x, the stock maneuver planning tool can cause severe lag/stutter in planet mods, so it's strongly recommended to disable it:
-   * Press ESC in game and press the 'Settings' button. Then disable the maneuver tool in the setting menu, under KSP Community Fixes section. See below:
-   
-![Imgur](https://i.imgur.com/z89SQdm.gif)
+
 ### Installation Checklist
    After a complete installation, the GameData folder should AT LEAST have the following contents:
    * 000_Harmony
@@ -103,9 +99,11 @@ Kcalbeloh System is NOT compatible with:
    - Principia
 
 ### How to make it compatible with RealSolarSystem?
-1. Download `RSSKopernicusSettings.cfg` in the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases).
-2. Put it to `Kerbal Space Program/GameData/RealSolarSystem/` and replace the original file. 
-3. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
+1. Install RSS first.
+2. Download `KcalbelohExtras.zip` on the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases) and extract.
+3. Find 'RSS support.zip', extract, and put everything inside the extracted 'GameData' folder to your KSP 'GameData' folder, and replace the original file.
+4. * Do **NOT** install other files unless you know what it is used for.
+5. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
 
 Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
 
@@ -114,36 +112,32 @@ Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale
 Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg`.
 
 ### Wormholes
-`Wormholes = `: whether to have wormholes connecting stock solar system and Kcalbeloh system.  
+`Wormholes = `: whether to have wormholes connecting the stock solar system and Kcalbeloh system.  
    - `True`: (default) enable the wormholes.
    - `False`: disable the wormholes.
 
 ### Home Switch
-`HomeSwitch = `: whether to move KSC to Kcalbeloh system. 
+`HomeSwitch = `: whether to switch home planet to Efil or Suluco. KSC and all the other launch sites and airfields will be moved to the selected planet.
    - `False`: (default) keep KSC on Kerbin.
-   - `Suluco`: move KSC and other launch sites and airfields to Suluco.
-   - `Efil`: move KSC and other launch sites and airfields to Efil.
+   - `Suluco`: Set Suluco as the home planet.
+   - `Efil`: Set Efil as the home planet.
    - Home switch is NOT compatible with system-replacement planet mods (Beyond Home, GPP, RSS, etc).
-   - Do **NOT** load any saved game after changing home switch setting.
+   - It is **NOT** recommended to load any saved game after changing home switch setting. There are risks of losing existing vessels.
 
 ### Distance
-`DistanceFactor =`: moving Kcalbeoh System closer or further to stock system.  
+`DistanceFactor =`: moving Kcalbeoh System closer or further to the stock system.  
    - `1`: (default) keep the default distance (271.8 Tm).
+   - `0`: Kerbol will orbit Kcalbeloh.
    - `0.1`: 0.1x default distance.
    - `10`: 10x default distance.
    - `100`: 100x default distance.
 
 ### Rescale
 `Rescale = `: rescale the system to 2.5x or 10x size.  
-   - `1`: (default) No rescales applied. It has the same scale with stock system.
+   - `1`: (default) No rescales applied. It has the same scale as the stock system.
    - `2.5`: 2.5x scale. If JNSQ is installed, this value will be forced.
    - `10`: 10x scale (realistic scale). If RealSolarSystem is installed, this option will be forced.
-   - This setting needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
-   - When homeswitch is on, rescale is automatically off because it can cause issues when enabling both.
-   
-`RescaleAll = `: Whether to apply rescale to all celestial bodies in game.
-   - `True`: (default) Rescale applied to all celestial bodies in game, including Kerbol system, Kcalbeloh system, and all the other planet packs.
-   - `False`:	Only apply rescale to Kcalbeloh system. If JNSQ or RSS is installed, this option will be forced.
+   - This option needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
 
 ### Skybox
 `DisableSkybox = `: Whether to disable the skybox bundled with Kcalbeloh System.
