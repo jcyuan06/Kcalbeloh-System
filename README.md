@@ -14,13 +14,15 @@ Get ready to blast off into the cosmos and embark on a thrilling journey through
 Happy launchings!
 ## Contents
    - [**System Map**](https://github.com/jcyuan06/Kcalbeloh-System#system-map)
+   - [**System Map**](https://github.com/jcyuan06/Kcalbeloh-System#delta-v-map)
    - [**Installation**](https://github.com/jcyuan06/Kcalbeloh-System#installation)
       - [System Requirements](https://github.com/jcyuan06/Kcalbeloh-System#system-requirements)
       - [Install via CKAN (Recommended)](https://github.com/jcyuan06/Kcalbeloh-System#install-via-ckan-Recommended)
       - [Install Manually](https://github.com/jcyuan06/Kcalbeloh-System#install-manually)
       - [Installation Checklist](https://github.com/jcyuan06/Kcalbeloh-System#installation-checklist)
    - [**Compatibility**](https://github.com/jcyuan06/Kcalbeloh-System#compatibility)
-      - [RSS Compatibility](https://github.com/jcyuan06/Kcalbeloh-System#how-to-make-it-compatible-with-realsolarsystem)
+      - [Principia](https://github.com/jcyuan06/Kcalbeloh-System#principia)
+      - [Real Solar System](https://github.com/jcyuan06/Kcalbeloh-System#real-solar-system)
    - [**Mod Settings**](https://github.com/jcyuan06/Kcalbeloh-System#mod-settings)
       - [Wormholes](https://github.com/jcyuan06/Kcalbeloh-System#wormholes)
       - [Home Switch](https://github.com/jcyuan06/Kcalbeloh-System#home-switch)
@@ -39,7 +41,9 @@ Happy launchings!
    <img src=/KcalbelohSystemMap6k.png>
    </p>
  </details>
- 
+
+# Delta-V Map
+![Imgur](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/Kcalbeloh%20dv%20and%20Transfer%20Windows%20Map.png?raw=true)
 # Installation
 ![Imgur](https://i.imgur.com/Jx0EVs1.png)
 ### System Requirements
@@ -48,18 +52,18 @@ Happy launchings!
    * Graphics: 1-2 GB VRAM
 ### Install via CKAN (Recommended)
    It's easier and less possible to have installation mistakes to install Kcalbeloh System via [CKAN](https://forum.kerbalspaceprogram.com/index.php?/topic/197082-ckan-the-comprehensive-kerbal-archive-network-v1320-kepler-ksp-2-support/). 
-   Please notice that only stable versions are posted on CKAN. If you want to download the test versions, you still need to install manually.
+   Please notice that only stable versions are posted on CKAN. If you want to download the test versions, you still need to install them manually.
 ### Install Manually
 1. **Install Kcalbeloh System**
    * If you have an older version of the Kcalbeloh System installed, please completely delete it before proceeding with the new version.
    * Download `Kcalbeloh-System-(v1.x.x).zip` from one of the sources:
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
       - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0) (for Chinese players)
-   * Extract the zip file and put all the three folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem` and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
+   * Extract the zip file and put all three folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem` and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
    * Do **NOT** download `KcalbelohExtras.zip` unless you know what it is used for.
 2. **Install Dependencies**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/): for creating custom celestial bodies.
-   * [**Singularity**](https://forum.kerbalspaceprogram.com/index.php?/topic/193709-wip18x-112x-singularity-black-hole-shaders/#comment-3782330): for blackhole and wormhole shaders.   
+   * [**Singularity**](https://spacedock.info/mod/2420/Singularity): for blackhole and wormhole shaders.   
    * [**KSPCommunityFixes**](https://forum.kerbalspaceprogram.com/index.php?/topic/204002-18-112-kspcommunityfixes-bugfixes-and-qol-tweaks/): for bug fixes.
 3. **Install Visuals**  
 The planet pack works fine without visual mods, but it will lose a large part of its aesthetic.
@@ -81,25 +85,30 @@ The planet pack works fine without visual mods, but it will lose a large part of
    * ModuleManager.4.2.2.dll
 # Compatibility
 ![Imgur](https://i.imgur.com/VVoMOzg.png)
-Kcalbeloh System provides support with:  
-   - Environmental Visual Enhancements
-   - Scatterer
-   - Parallax (Needs Parallax Stock Textures)
-   - Community Resource Pack
-   - SpaceDust
-   - Kerbalism
-   - PlanetShine   
+### Supported:
+   - **Environmental Visual Enhancements**
+   - **Scatterer**
+   - **Parallax 2.0** (Needs Parallax Stock Textures)
+   - **Community Resource Pack**
+   - **SpaceDust**
+   - **Kerbalism**
+   - **PlanetShine**
+### Compatible With:
+   - **Visual Packs**: AVP and Spectra.
+   - **Planet Mods**: It depends. As an interstellar planet mod, Kcalbeloh shouldn't have conflicts with most planet mods, as long as:
+      - The planet mod is compatible with the newest version of KSP/Kopernicus.
+      - The planet mod is compatible with the latest EVE, Scatterer (and Parallax 2.0, if installed).
+      - HomeSwitch is disabled with any system-replacer planet mod.
+### Principia
+Kcalbeloh System provides configuration for Principia in v1.1.2 and above. The orbit stability of all celestial bodies is verified for at least 2000 years. With Principia:  
+(1) Kerbol will be forced to orbit Kcalbeloh, since Principia cannot handle interstellar distances;  
+(2) Wormholes, HomeSwitch, and Rescale will be disabled automatically;  
+(3) Skybox will be turned black to avoid visual error with Principia + Singularity;  
+(4) It's NOT compatible with RSS and other system-replacer planet mods.  
 
-Kcalbeloh System is compatible with:
-   - Most visual mods (AVP, Spectra, SVE...)
-   - Most planet mods (Beyond Home, OPM, GPP...)
-   - RealSolarSystem, but requires some minor adjustments. See the next session.   
-
-Kcalbeloh System is NOT compatible with:
-   - Principia
-
-### How to make it compatible with RealSolarSystem?
-1. Install RSS first.
+### Real Solar System
+Kcalbeloh System is compatible with RSS, but the following steps should be taken:
+1. Install RSS and Kcalbeloh System first.
 2. Download `KcalbelohExtras.zip` on the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases) and extract.
 3. Find 'RSS support.zip', extract, and put everything inside the extracted 'GameData' folder to your KSP 'GameData' folder, and replace the original file.
 4. * Do **NOT** install other files unless you know what it is used for.
