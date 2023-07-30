@@ -101,10 +101,10 @@ The planet pack works fine without visual mods, but it will lose a large part of
       - HomeSwitch is disabled with any system-replacer planet mod.
 ### Principia
 Kcalbeloh System provides configuration for Principia in v1.1.2 and above. The orbit stability of all celestial bodies is verified for at least 2000 years. With Principia:  
-(1) Kerbol will be forced to orbit Kcalbeloh, since Principia cannot handle interstellar distances;  
-(2) Wormholes, HomeSwitch, and Rescale will be disabled automatically;  
-(3) Skybox will be turned black to avoid visual error with Principia + Singularity;  
-(4) It's NOT compatible with RSS and other system-replacer planet mods.  
+   (1) Kerbol will be forced to orbit Kcalbeloh, since Principia cannot handle interstellar distances;  
+   (2) Wormholes, HomeSwitch, and Rescale will be disabled automatically;  
+   (3) Skybox will be turned black to avoid visual error with Principia + Singularity;  
+   (4) It's NOT compatible with RSS and other system-replacer planet mods.  
 
 ### Real Solar System
 Kcalbeloh System is compatible with RSS, but the following steps should be taken:
