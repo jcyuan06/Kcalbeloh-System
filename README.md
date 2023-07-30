@@ -14,7 +14,7 @@ Get ready to blast off into the cosmos and embark on a thrilling journey through
 Happy launchings!
 ## Contents
    - [**System Map**](https://github.com/jcyuan06/Kcalbeloh-System#system-map)
-   - [**System Map**](https://github.com/jcyuan06/Kcalbeloh-System#delta-v-map)
+   - [**Delta-V Map**](https://github.com/jcyuan06/Kcalbeloh-System#delta-v-map)
    - [**Installation**](https://github.com/jcyuan06/Kcalbeloh-System#installation)
       - [System Requirements](https://github.com/jcyuan06/Kcalbeloh-System#system-requirements)
       - [Install via CKAN (Recommended)](https://github.com/jcyuan06/Kcalbeloh-System#install-via-ckan-Recommended)
