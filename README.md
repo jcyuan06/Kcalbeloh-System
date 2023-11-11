@@ -82,7 +82,7 @@ The planet pack works fine without visual mods, but it will lose a large part of
    * ModularFlightIntegrator
    * Scatterer
    * Singularity
-   * ModuleManager.4.2.2.dll
+   * ModuleManager.4.2.3.dll
 # Compatibility
 ![Imgur](https://i.imgur.com/VVoMOzg.png)
 ### Supported:
@@ -99,22 +99,23 @@ The planet pack works fine without visual mods, but it will lose a large part of
       - The planet mod is compatible with the newest version of KSP/Kopernicus.
       - The planet mod is compatible with the latest EVE, Scatterer (and Parallax 2.0, if installed).
       - HomeSwitch is disabled with any system-replacer planet mod.
+        
+     However, installing Kcalbeloh System with other planet mods together is NOT recommended since planet mods typically demand substantial storage and memory resources. 
 ### Principia
 Kcalbeloh System provides configuration for Principia in v1.1.2 and above. The orbit stability of all celestial bodies is verified for at least 2000 years. With Principia:  
    (1) Kerbol will be forced to orbit Kcalbeloh, since Principia cannot handle interstellar distances;  
-   (2) Wormholes, HomeSwitch, and Rescale will be disabled automatically;  
+   (2) Wormholes and Rescale will be disabled automatically;  
    (3) Skybox will be turned black to avoid visual error with Principia + Singularity;  
-   (4) It's NOT compatible with RSS and other system-replacer planet mods.  
+   (4) It's NOT compatible with RSS and other planet mods.  
 
 ### Real Solar System
 Kcalbeloh System is compatible with RSS, but the following steps should be taken:
 1. Install RSS and Kcalbeloh System first.
-2. Download `KcalbelohExtras.zip` on the [download page](https://github.com/jcyuan06/Kcalbeloh-System/releases) and extract.
-3. Find 'RSS support.zip', extract, and put everything inside the extracted 'GameData' folder to your KSP 'GameData' folder, and replace the original file.
-4. * Do **NOT** install other files unless you know what it is used for.
-5. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
+2. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
 
-Note: When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
+Note: 
+   - When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
+   - Kcalbeloh System is NOT compatible with RSS and Parallax together.
 
 # Mod Settings
 ![Imgur](https://i.imgur.com/SIjy14c.png)
@@ -133,6 +134,10 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - Home switch is NOT compatible with system-replacement planet mods (Beyond Home, GPP, RSS, etc).
    - It is **NOT** recommended to load any saved game after changing home switch setting. There are risks of losing existing vessels.
 
+`RemoveKerbolWhenHomeSwitch = `: Whether to remove the stock (Kerbol) system if HomeSwitch is enabled.  
+   - `False`: (default) Keep the stock system.
+   - `Ture`: Remove the stock system. It can reduce RAM and CPU usage.
+
 ### Distance
 `DistanceFactor =`: moving Kcalbeoh System closer or further to the stock system.  
    - `1`: (default) keep the default distance (271.8 Tm).
@@ -148,6 +153,11 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - `10`: 10x scale (realistic scale). If RealSolarSystem is installed, this option will be forced.
    - This option needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
 
+### Star Size
+`RealisticStarSize = `: In KSP, the dimensions of stars appear disproportionately larger in comparison to the planets. This item aligns the size of stars with that of planets, thereby yielding a more realistic visual aesthetic.
+   - `False`: (Default) Keep the size of stars untouched.
+   - `Ture`: Adjust the size of stars to the same scale as planets. It only influences the visual appearance. The mass of the stars won't be changed.
+   - It only changes Kerbol and the stars in Kcalbeloh system.
 ### Skybox
 `DisableSkybox = `: Whether to disable the skybox bundled with Kcalbeloh System.
    - `True`: Disable the skybox bundled with Kcalbeloh System. Set it to True if you don't like this skybox.
