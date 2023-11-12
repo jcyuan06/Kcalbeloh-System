@@ -13,6 +13,7 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
 
 ## 目录
    - [**星图**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%98%9F%E5%9B%BE)
+   - [**Delta-V 地图**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E6%98%9F%E5%9B%BE)
    - [**安装教程**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)
       - [配置要求](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E9%85%8D%E7%BD%AE%E8%A6%81%E6%B1%82)
       - [通过CKAN安装(推荐)](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E9%80%9A%E8%BF%87ckan%E5%AE%89%E8%A3%85%E6%8E%A8%E8%8D%90)
@@ -38,6 +39,9 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    </p>
  </details>
  
+# Delta-V 地图
+![Imgur](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/Kcalbeloh%20dv%20and%20Transfer%20Windows%20Map.png?raw=true) 
+
 # 安装教程
 ![Imgur](https://i.imgur.com/Jx0EVs1.png)
 ### 配置要求
@@ -48,21 +52,22 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    通过[CKAN](https://forum.kerbalspaceprogram.com/index.php?/topic/197082-ckan-the-comprehensive-kerbal-archive-network-v1320-kepler-ksp-2-support/)安装Kcalbeloh系统更容易且不太可能出现安装错误.
    请注意, CKAN上仅发布稳定版本. 如果您想下载测试版本, 仍然需要手动安装.
 ### 手动安装
-1. **安装Kcalbeloh System本体**
-   * 下载地址 (任意一个):
+1. **安装 Kcalbeloh 本体**
+   * 如果您已安装较旧版本的 Kcalbeloh System，请在安装新版本之前彻底删除它。
+   * 从以下来源下载 `Kcalbeloh-System-(v1.x.x).zip`：
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
-      - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0) (为方便国内玩家)
-   * 如果你要更新这个mod，一定要将旧版本删干净再安装新版！  
-   * 解压压缩包，将解压后得到的`/GameData`目录中的所有内容放到`[KSP安装目录]/GameData/`文件夹内. (共有三个文件夹: `000_NiakoUtils`, `KcalbelohSystem`, `KopernicusExpansion`)
-   
-2. **安装依赖项（必要）**
-   * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/)
-   * [**Singularity**](https://forum.kerbalspaceprogram.com/index.php?/topic/193709-wip18x-112x-singularity-black-hole-shaders/#comment-3782330) 
-   * [**KSPCommunityFixes**](https://forum.kerbalspaceprogram.com/index.php?/topic/204002-18-112-kspcommunityfixes-bugfixes-and-qol-tweaks/)
-3. **安装美化**  
-   如不安装美化，这个星系包仍可以正常运行。但强烈推荐安装，否则你将失去大部分看风景的体验。
-   * [**EVE Redux**](https://forum.kerbalspaceprogram.com/index.php?/topic/196411-19-112-eve-redux-performance-enhanced-eve-maintenance-v11151-07112021/)
-   * [**Scatterer**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main)
+      - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0)（供中国玩家使用）
+   * 解压缩 zip 文件，并将三个文件夹（`000_NiakoUtils`、`KcalbelohSystem` 和 `KopernicusExpansion`）放入 `/GameData` 文件夹，即 `[KSP 安装目录]/GameData/` 文件夹。
+   * **不要**下载 `KcalbelohExtras.zip`，除非您知道它的用途。
+2. **安装依赖项**
+   * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/)：用于创建自定义天体。
+   * [**Singularity**](https://spacedock.info/mod/2420/Singularity)：用于黑洞和虫洞渲染。   
+   * [**KSPCommunityFixes**](https://forum.kerbalspaceprogram.com/index.php?/topic/204002-18-112-kspcommunityfixes-bugfixes-and-qol-tweaks/)：用于修复Bug。
+
+3. **安装美化Mod**  
+这个行星包在没有视觉效果的情况下运行良好，但会失去很大一部分美感。
+   * [**EVE Redux**](https://forum.kerbalspaceprogram.com/index.php?/topic/196411-19-112-eve-redux-performance-enhanced-eve-maintenance-v11151-07112021/)：用于云彩、沙尘暴和极光。
+   * [**Scatterer**](https://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip19x-112x-scatterer-atmospheric-scattering-00838-14082022-scattering-improvements-in-game-atmo-generation-and-multi-sun-support/)：用于逼真的大气、海洋和恒星贴图。
 
 ### 检查清单
    一个正确完整的安装后，你的GameData文件夹应**至少**包括如下内容：
@@ -76,37 +81,46 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    * ModularFlightIntegrator
    * Scatterer
    * Singularity
-   * ModuleManager.4.2.2.dll
+   * ModuleManager.4.2.3.dll
 # 兼容性
 ![Imgur](https://i.imgur.com/VVoMOzg.png)
-Kcalbeloh System为以下mod提供的配置:  
-   - Environmental Visual Enhancements
-   - Scatterer
-   - Parallax (需要安装 Parallax Stock Textures)
-   - Community Resource Pack
-   - SpaceDust
-   - Kerbalism
-   - PlanetShine   
+### 本星系包为以下Mod提供配置：
+   - **Environmental Visual Enhancements**
+   - **Scatterer**
+   - **Parallax 2.0**（需要 Parallax Stock Textures）
+   - **Community Resource Pack**
+   - **SpaceDust**
+   - **Kerbalism**
+   - **PlanetShine**
 
-Kcalbeloh System兼容以下mod:
-   - 大多数原版星系美化包 (AVP, Spectra, SVE...)
-   - 大多数星球mod (Beyond Home, OPM, GPP...)
-   - 真实太阳系(RSS), 但需要一步手动配置（参考后面的说明）   
+### 本星系包与以下Mod兼容：
+   - **美化包**：AVP 和 Spectra。
+   - **星球包**：取决于。作为星际行星模组，Kcalbeloh 不应与大多数星球包冲突，只要：
+      - 该星球包兼容最新版本的 KSP/Kopernicus。
+      - 该星球包与最新的 EVE、Scatterer（以及Parallax 2.0）兼容。
+      - 在安装任何替换原版星系的星球包时，禁用 HomeSwitch。
 
-Kcalbeloh System不兼容:
-   - Principia
+     但是，不建议将 Kcalbeloh System 与其他星球包一起安装，因为星球包通常需要大量的存储和内存资源。
 
-### 如何与真实太阳系(RSS)兼容？
-1. 先安装RSS.
-2. 在[这里](https://github.com/jcyuan06/Kcalbeloh-System/releases)下载 `Extras.zip`并解压.  
-3. 解压`RSS support.zip`并将解压得到的GameData中所有内容复制到KSP的GameData文件夹, 替换原有文件. 
-4. 安装 [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
+### Principia
+Kcalbeloh System 在 v1.1.2 及以上版本中提供了对 Principia 的配置。所有天体的轨道稳定性已验证至2000年。使用 Principia 时：
+   (1) Kerbol 将被强制绕 Kcalbeloh 轨道运行，因为 Principia 无法处理星际距离；
+   (2) 虫洞和 Rescale 将被自动禁用；
+   (3) 天空盒将变为黑色，以避免与 Principia + Singularity 的视觉错误；
+   (4) 它与 RSS 和其他星球包不兼容。
 
-注：安装了RSS后本mod会强制放大10倍尺寸以匹配真实尺寸。
+### 真实太阳系（Real Solar System）
+Kcalbeloh System 与 RSS 兼容，但应采取以下步骤：
+1. 先安装 RSS 和 Kcalbeloh System。
+2. 安装 [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions)。
+
+注意：
+   - 当将 Kcalbeloh System 和 RealSolarSystem 一起安装时，将强制在 Kcalbeloh System 上使用10倍缩放。
+   - Kcalbeloh System 与 RSS 和 Parallax 不能同时兼容。
 
 # Mod设置教程
 ![Imgur](https://i.imgur.com/SIjy14c.png)
-进入`Kerbal Space Program/GameData/KcalbelohSystem/`文件夹， 打开这个文件`Kcalbeloh System Settings.cfg`.
+进入`Kerbal Space Program/GameData/KcalbelohSystem/`文件夹， 用记事本或其他文本编辑器打开`Kcalbeloh System Settings.cfg`.
 
 ### 虫洞
 `Wormholes = `: 是否启用连接原版星系和Kcalbeloh星系的虫洞
@@ -118,9 +132,13 @@ Kcalbeloh System不兼容:
    - `False`: (默认) 不切换.
    - `Suluco`: 选择Suluco为母星.
    - `Efil`: 选择Efil为母星.
+   - 还有一个隐藏选项作为彩蛋，适合那些喜欢自虐的人.
    - 此功能与替换原版星系的Mod不兼容(如Beyond Home, GPP, RSS等).
    - 调整此设置后**不建议**加载已有的存档, 有可能会丢失部分载具。
 
+`RemoveKerbolWhenHomeSwitch = `: 如果启用 HomeSwitch，则是否删除原版（Kerbol）星系。  
+   - `False`:（默认）保留原版星系。
+   - `Ture`: 删除原版星系。这可以减少 RAM 和 CPU 使用。
 ### 星系距离
 `DistanceFactor =`: 调整Kcalbeoh System与原版星系的距离.  
    - `1`: (默认)保持默认距离(271.8 Tm).
@@ -135,7 +153,13 @@ Kcalbeloh System不兼容:
    - `2.5`: 2.5倍放大(JNSQ尺寸). 如果安装了JNSQ，这个选项会强制打开.
    - `10`: 10倍放大 (真实尺寸). 如果安装了RSS，这个选项会强制打开.
    - 此项设置需要安装[Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions)方可生效.
-     
+
+### 恒星尺寸
+`RealisticStarSize = `: 在 KSP 中，恒星的尺寸与行星相比显得不成比例地大。此项目将恒星的尺寸与行星相匹配，从而产生更真实的视觉效果。
+   - `False`:（默认）保持恒星的尺寸不变。
+   - `Ture`: 将恒星的尺寸调整为与行星相同的比例。它只影响视觉外观。恒星的质量不会改变。
+   - 它仅更改 Kerbol 和 Kcalbeloh 系统中的恒星。
+
 ### 星空背景贴图
 `DisableSkybox = `: 是否禁用Kcalbeloh System自带的星空背景贴图.
    - `True`: 禁用Kcalbeloh System自带的星空背景贴图. (如果你不喜欢这个背景贴图可选择禁用).
@@ -175,10 +199,10 @@ Kcalbeloh System不兼容:
 它与绝大多数星球包兼容。
 
 4. **它支持真实太阳系(RSS)吗？**  
-是的，不过需要进行一步配置. [详情看这里](https://github.com/jcyuan06/Kcalbeloh-System#how-to-make-it-compatible-with-realsolarsystem).
+是的，不过需要安装[Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions). 详情[在此](https://github.com/jcyuan06/Kcalbeloh-System#real-solar-system).
 
 5. **它与其他美化包兼容吗？**  
-是的，它与大部分主流美化包兼容，比如Astronomer's Visual Pack, Spectra, and Stock Visual Enhancement.
+是的，它与大部分主流美化包兼容，比如Astronomer's Visual Pack, Spectra.
 
 6. **虫洞是什么？如何使用虫洞？**  
 与《星际穿越》中的虫洞类似，你可以通过虫洞瞬间转移至新的星系。在游戏中，虫洞的性质类似于天体，具有质量和引力范围。要穿越虫洞，您需要将近点降低到30km以下。越过近点后，您将跳转到另一个星系。
