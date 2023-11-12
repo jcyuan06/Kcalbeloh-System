@@ -58,7 +58,7 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    * 如果您已安装较旧版本的 Kcalbeloh System，请在安装新版本之前彻底删除它。
    * 从以下来源下载 `Kcalbeloh-System-(v1.x.x).zip`：
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
-      - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0)（供中国玩家使用）
+      - [腾讯微云](https://share.weiyun.com/dNciX1n9)（供中国玩家使用）
    * 解压缩 zip 文件，并将三个文件夹（`000_NiakoUtils`、`KcalbelohSystem` 和 `KopernicusExpansion`）放入 `/GameData` 文件夹，即 `[KSP 安装目录]/GameData/` 文件夹。
    * **不要**下载 `KcalbelohExtras.zip`，除非您知道它的用途。
 2. **安装依赖项**
