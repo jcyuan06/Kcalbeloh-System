@@ -59,7 +59,7 @@ Happy launchings!
    * If you have an older version of the Kcalbeloh System installed, please completely delete it before proceeding with the new version.
    * Download `Kcalbeloh-System-(v1.x.x).zip` from one of the sources:
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
-      - [百度网盘](https://pan.baidu.com/s/16RmGATxNw7G7VKPJ-uHRxg?pwd=plc0) (for Chinese players)
+      - [腾讯微云](https://share.weiyun.com/dNciX1n9) (for Chinese players)
    * Extract the zip file and put all three folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem` and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
    * Do **NOT** download `KcalbelohExtras.zip` unless you know what it is used for.
 2. **Install Dependencies**
