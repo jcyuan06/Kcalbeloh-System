@@ -119,7 +119,7 @@ Note:
 
 # Mod Settings
 ![Imgur](https://i.imgur.com/SIjy14c.png)
-Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg`.
+Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg` with any text editor.
 
 ### Wormholes
 `Wormholes = `: whether to have wormholes connecting the stock solar system and Kcalbeloh system.  
@@ -131,6 +131,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - `False`: (default) keep KSC on Kerbin.
    - `Suluco`: Set Suluco as the home planet.
    - `Efil`: Set Efil as the home planet.
+   - Another hidden option for those who enjoy challenge, pain, and cool stuffs.
    - Home switch is NOT compatible with system-replacement planet mods (Beyond Home, GPP, RSS, etc).
    - It is **NOT** recommended to load any saved game after changing home switch setting. There are risks of losing existing vessels.
 
@@ -197,7 +198,7 @@ Yes, but no. Although some ideas of the mod are inspired by Interstellar, the go
 Yes, it is compatible with most planet packs but it still needs further testing. Let me know if you have any issues.
 
 4. **Is it compatible with Real Solar System?**  
-Yes, but you need to download a config file. See [here](https://github.com/jcyuan06/Kcalbeloh-System#how-to-make-it-compatible-with-realsolarsystem).
+Yes, but you need to install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions). See [here](https://github.com/jcyuan06/Kcalbeloh-System#real-solar-system).
 
 5. **Is it compatible with other visual mods?**  
 Yes, it is compatible with most visual mods for stock system, such as Astronomer's Visual Pack, Spectra, and Stock Visual Enhancement.
