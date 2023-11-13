@@ -91,7 +91,10 @@ The planet pack works fine without visual mods, but it will lose a large part of
    - **Scatterer**
    - **Parallax 2.0** (Needs Parallax Stock Textures)
    - **Community Resource Pack**
+   - **Rational Resources**
    - **SpaceDust**
+   - **Research Bodies**
+   - **DMagic Orbital Science**
    - **Kerbalism**
    - **PlanetShine**
 ### Compatible With:
