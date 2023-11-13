@@ -91,7 +91,10 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    - **Scatterer**
    - **Parallax 2.0**（需要 Parallax Stock Textures）
    - **Community Resource Pack**
+   - **Rational Resources**
    - **SpaceDust**
+   - **Research Bodies**
+   - **DMagic Orbital Science**
    - **Kerbalism**
    - **PlanetShine**
 
