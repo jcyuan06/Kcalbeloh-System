@@ -97,6 +97,7 @@ The planet pack works fine without visual mods, but it will lose a large part of
    - **DMagic Orbital Science**
    - **Kerbalism**
    - **PlanetShine**
+   - **True Volumetric Clouds**: Since it hasn't been released publicly, support for volumetric clouds is not provided officially at the moment. Before that, I'd post [**Kcalbeloh System Volumetric** by ProximaCentauri-star](https://github.com/ProximaCentauri-star/KcalebelohVolumetrics/releases) here for those who are interested. Use it at your own risk.
 ### Compatible With:
    - **Visual Packs**: AVP and Spectra.
    - **Planet Mods**: It depends. As an interstellar planet mod, Kcalbeloh shouldn't have conflicts with most planet mods, as long as:
