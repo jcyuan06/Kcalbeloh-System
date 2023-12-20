@@ -85,7 +85,7 @@ The planet pack works fine without visual mods, but it will lose a large part of
    * Singularity
    * ModuleManager.4.2.3.dll
 # Compatibility
-![Imgur](https://i.imgur.com/VVoMOzg.png)
+![Imgur](https://i.imgur.com/PS7Iv1v.png)
 ### Supported:
    - **Environmental Visual Enhancements**
    - **Scatterer**
@@ -123,7 +123,7 @@ Note:
    - Kcalbeloh System is NOT compatible with RSS and Parallax together.
 
 # Mod Settings
-![Imgur](https://i.imgur.com/SIjy14c.png)
+![Imgur](https://i.imgur.com/VVoMOzg.png)
 Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh System Settings.cfg` with any text editor.
 
 ### Wormholes
@@ -142,7 +142,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
 
 `RemoveKerbolWhenHomeSwitch = `: Whether to remove the stock (Kerbol) system if HomeSwitch is enabled.  
    - `False`: (default) Keep the stock system.
-   - `Ture`: Remove the stock system. It can reduce RAM and CPU usage.
+   - `True`: Remove the stock system. It can reduce RAM and CPU usage.
 
 ### Distance
 `DistanceFactor =`: moving Kcalbeoh System closer or further to the stock system.  
@@ -162,7 +162,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
 ### Star Size
 `RealisticStarSize = `: In KSP, the dimensions of stars appear disproportionately larger in comparison to the planets. This item aligns the size of stars with that of planets, thereby yielding a more realistic visual aesthetic.
    - `False`: (Default) Keep the size of stars untouched.
-   - `Ture`: Adjust the size of stars to the same scale as planets. It only influences the visual appearance. The mass of the stars won't be changed.
+   - `True`: Adjust the size of stars to the same scale as planets. It only influences the visual appearance. The mass of the stars won't be changed.
    - It only changes Kerbol and the stars in Kcalbeloh system.
 ### Skybox
 `DisableSkybox = `: Whether to disable the skybox bundled with Kcalbeloh System.
@@ -170,7 +170,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - `False`:	(default) Use the skybox bundled with Kcalbeloh System.
    
 # Recommended Mods
-![Imgur](https://i.imgur.com/jFkzu48.png)
+![Imgur](https://i.imgur.com/X0IgV2y.png)
    -  **Propulsion**
       - [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/) 
       - [Far Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/)  
@@ -212,6 +212,6 @@ Yes, it is compatible with most visual mods for stock system, such as Astronomer
 A wormhole is a structure linking disparate points in spacetime. In KSP, a wormhole functions like a celestial body with its mass and SOI. To traverse the wormhole, you need to lower your periapsis below 30 km. After you reach the periapsis, you will jump to the other star system.
 
 # Contact
-![Imgur](https://i.imgur.com/5xWsKua.png)
+![Imgur](https://i.imgur.com/jFkzu48.png)
 [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/203753-wip-112x-kcalbeloh-system-planet-pack-beta-12-a-journey-to-a-black-hole-may-02-2022/)  
 [Discord Server](https://discord.gg/Crmy8KgqK2) 
