@@ -4,27 +4,27 @@ Unless specified, all content of [Kcalbeloh System Planet Pack](https://forum.ke
 
 ### Exceptions
 1. The following textures are from [Astronomer's Visual Pack](https://forum.kerbalspaceprogram.com/index.php?/topic/160878-ksp-1123-astronomers-visual-pack-beyond-v413-july-17th-2022/) and redistributed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License:  
-    > GameData/KcalbelohSystem/EVE/Textures/aurora1Blank.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/aurora1Yn.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/aurora1Yp.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/aurora2Blank.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/aurora2Yn.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/aurora2Yp.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/auroraglowBlank.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/auroraglowYn.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/auroraglowYp.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/aurorasoftBlank.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/aurorasoftYn.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/aurorasoftYp.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/detailAurora.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/detailCirrus.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/detailCumulus.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/detailNoise.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/uvnoise1.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/particle/particle_NRM.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/particle/rgb.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/particle/rgb2.dds  
-    > GameData/KcalbelohSystem/EVE/Textures/particle/rgb3.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/aurora1Blank.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/aurora1Yn.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/aurora1Yp.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/aurora2Blank.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/aurora2Yn.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/aurora2Yp.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/auroraglowBlank.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/auroraglowYn.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/auroraglowYp.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/aurorasoftBlank.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/aurorasoftYn.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/aurorasoftYp.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/detailAurora.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/detailCirrus.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/detailCumulus.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/detailNoise.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/uvnoise1.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/particle/particle_NRM.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/particle/rgb.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/particle/rgb2.dds  
+    > GameData/KcalbelohTextures/EVE/Textures/particle/rgb3.dds  
 2. The mod [Kopernicus Expansion Continued-er](https://forum.kerbalspaceprogram.com/index.php?/topic/195844-110-111-112-alpha-kopernicus-expansion-continued-er/) in the following folder is redistributed under the GNU General Public License.
     > GameData/KopernicusExpansion
 3. The plugin [Niako's Kopernicus Utilities](https://forum.kerbalspaceprogram.com/index.php?/topic/207768-112-niakos-kopernicus-utilities-smoother-heightmaps/) in the following path is redistributed under the MIT license:
@@ -33,7 +33,7 @@ Unless specified, all content of [Kcalbeloh System Planet Pack](https://forum.ke
     > GameData/KcalbelohSystem/Plugins/SigmaLoadingScreens  
     > GameData/KcalbelohSystem/Plugins/SigmaReplacementsSkyBox
 5. Some of the sunflare textures are made based on textures of [Kabrams Sun Flare's Pack](https://spacedock.info/mod/1843/Kabrams%20Sun%20Flare%27s%20Pack%20for%20Scatterer.) and redistributed under its own license:
-    > GameData/KcalbelohSystem/Scatterer/Sunflares/
+    > GameData/KcalbelohTextures/Scatterer/Sunflares/
 6. Other contributions to this mod are claimed in the [forum thread](https://forum.kerbalspaceprogram.com/index.php?/topic/203753-wip-1123-kcalbeloh-system-planet-pack-beta-14-a-journey-to-a-black-hole-sep-11-2022/).
 
 ## Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
