@@ -57,9 +57,12 @@ Happy launchings!
 ### Install Manually
 1. **Install Kcalbeloh System**
    * If you have an older version of the Kcalbeloh System installed, please completely delete it before proceeding with the new version.
+   * Download from one of the sources:
+      - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
+      - [腾讯微云](https://share.weiyun.com/dNciX1n9) (for Chinese players)
    * Download `Kcalbeloh-System-(v1.x.x).zip`.
    * Choose **ONE** of them to download: 
-       * `Kcalbeloh-Textures-4k.zip`: Same resolution as previous releases.
+       * `Kcalbeloh-Textures-4k.zip`: Regular-res textures.
        * `Kcalbeloh-Textures-8k.zip`: High-res textures, NOT recommended if your RAM is no more than 16 GB.
    * Extract the zip files and put all the folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem`, `KcalbelohTextures`, and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
    * Do **NOT** download `KcalbelohExtras.zip` unless you know what it is used for.
