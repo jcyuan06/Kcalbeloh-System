@@ -59,7 +59,7 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    * 从以下来源下载 `Kcalbeloh-System-(v1.x.x).zip`：
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
       - [腾讯微云](https://share.weiyun.com/dNciX1n9)（供中国玩家使用）
-   * 解压缩 zip 文件，并将三个文件夹（`000_NiakoUtils`、`KcalbelohSystem` 和 `KopernicusExpansion`）放入 `/GameData` 文件夹，即 `[KSP 安装目录]/GameData/` 文件夹。
+   * 解压缩 zip 文件，并将四个文件夹（`000_NiakoUtils`、`KcalbelohSystem`、`KcalbelohTextures` 和 `KopernicusExpansion`）放入 `/GameData` 文件夹，即 `[KSP 安装目录]/GameData/` 文件夹。
    * **不要**下载 `KcalbelohExtras.zip`，除非您知道它的用途。
 2. **安装依赖项**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/)：用于创建自定义天体。
@@ -160,9 +160,9 @@ Kcalbeloh System 与 RSS 兼容，但应采取以下步骤：
    - 此项设置需要安装[Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions)方可生效.
 
 ### 恒星尺寸
-`RealisticStarSize = `: 在 KSP 中，恒星的尺寸与行星相比显得不成比例地大。此项目将恒星的尺寸与行星相匹配，从而产生更真实的视觉效果。
-   - `False`:（默认）保持恒星的尺寸不变。
-   - `Ture`: 将恒星的尺寸调整为与行星相同的比例。它只影响视觉外观。恒星的质量不会改变。
+`RealisticStarSize = `: 在 KSP 中，恒星的尺寸与行星相比显得过大。此选项将恒星的尺寸与行星相匹配，从而产生更真实的视觉效果。
+   - `Ture`: （默认）将恒星的尺寸调整为与行星相同的比例。它只影响视觉外观。恒星的质量不会改变。
+   - `False`:保持恒星的尺寸不变。
    - 它仅更改 Kerbol 和 Kcalbeloh 系统中的恒星。
 
 ### 星空背景贴图
@@ -210,7 +210,13 @@ Kcalbeloh System 与 RSS 兼容，但应采取以下步骤：
 是的，它与大部分主流美化包兼容，比如Astronomer's Visual Pack, Spectra.
 
 6. **虫洞是什么？如何使用虫洞？**  
-与《星际穿越》中的虫洞类似，你可以通过虫洞瞬间转移至新的星系。在游戏中，虫洞的性质类似于天体，具有质量和引力范围。要穿越虫洞，您需要将近点降低到30km以下。越过近点后，您将跳转到另一个星系。
+与《星际穿越》中的虫洞类似，你可以通过虫洞瞬间转移至新的星系。在游戏中，虫洞的性质类似于天体，具有质量和引力范围。要穿越虫洞，您需要将近点降低到30km以下。越过近点后，您将跳转到另一个星系。默认情况下虫洞环绕Jool公转。但如果安装了Outer Planets Mod，虫洞将绕Sarnus公转；如果安装了RSS/KSRSS，虫洞将绕土星公转。
+
+8. **如何与Kcalbeloh system星系建立通讯？**
+Kcalbeloh 星系位于 Kerbol 系统之外 200 Tm远的地方，超过了大多数 mod 中超级天线的范围。此外，你不能通过虫洞进行通信。但你仍有几种解决方案可以考虑：
+   - **（推荐）** 发送一艘配备有远程控制模块的载人控制站，例如 RC-L01远程控制单元。利用该模块使用载人飞船远程控制你的探测器，而无需连接到 KSC。此外，许多mod的指挥舱也可以作为[Probe Control Point](https://wiki.kerbalspaceprogram.com/wiki/Probe_Control_Point)。
+   - 在 KcalbelohSystemSettings.cfg 中将 DistanceFactor 设置为 0，使得 Kerbol 绕 Kcalbeloh 运行。这个调整会显著减少通信距离，使其更容易管理，单位为万亿米，可以被近期未来 mod 中的天线覆盖。
+   - 使用一些mod中的超级强大的星际天线（据我所知，GU Parts中有一些）。请记住，这个方案远悖现实，因为由于光速的限制，实时星际通信在现实中是不可行的。
 
 # 联系方式
 ![Imgur](https://i.imgur.com/5xWsKua.png)
