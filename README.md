@@ -102,7 +102,7 @@ The planet pack works fine without visual mods, but it will lose a large part of
    - **DMagic Orbital Science**
    - **Kerbalism**
    - **PlanetShine**
-   - **True Volumetric Clouds**: Since it hasn't been released publicly, support for volumetric clouds is not provided officially at the moment. Before that, I'd post [**Kcalbeloh System Volumetric** by ProximaCentauri-star](https://github.com/ProximaCentauri-star/KcalebelohVolumetrics/releases) here for those who are interested. Use it at your own risk.
+   - **True Volumetric Clouds**: Official support is in development. You can find the UNFINISHED test version [here](https://github.com/jcyuan06/Kcalbeloh-Volumetric-Clouds/releases). Use it at your own risk.
 ### Compatible With:
    - **Visual Packs**: AVP and Spectra.
    - **Planet Mods**: It depends. As an interstellar planet mod, Kcalbeloh shouldn't have conflicts with most planet mods, as long as:
@@ -151,7 +151,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - `True`: Remove the stock system. It can reduce RAM and CPU usage.
 
 ### Distance
-`DistanceFactor =`: moving Kcalbeoh System closer or further to the stock system.  
+`DistanceFactor =`: moving Kcalbeloh System closer or further to the stock system.  
    - `1`: (default) keep the default distance (271.8 Tm).
    - `0`: Kerbol will orbit Kcalbeloh.
    - `0.1`: 0.1x default distance.
