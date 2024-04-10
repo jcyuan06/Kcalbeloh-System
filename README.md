@@ -57,10 +57,14 @@ Happy launchings!
 ### Install Manually
 1. **Install Kcalbeloh System**
    * If you have an older version of the Kcalbeloh System installed, please completely delete it before proceeding with the new version.
-   * Download `Kcalbeloh-System-(v1.x.x).zip` from one of the sources:
+   * Download from one of the sources:
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
       - [腾讯微云](https://share.weiyun.com/dNciX1n9) (for Chinese players)
-   * Extract the zip file and put all three folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem` and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
+   * Download `Kcalbeloh-System-(v1.x.x).zip`.
+   * Choose **ONE** of them to download: 
+       * `Kcalbeloh-Textures-4k.zip`: Regular-res textures.
+       * `Kcalbeloh-Textures-8k.zip`: High-res textures, NOT recommended if your RAM is no more than 16 GB.
+   * Extract the zip files and put all the folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem`, `KcalbelohTextures`, and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
    * Do **NOT** download `KcalbelohExtras.zip` unless you know what it is used for.
 2. **Install Dependencies**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/): for creating custom celestial bodies.
@@ -69,7 +73,7 @@ Happy launchings!
 3. **Install Visuals**  
 The planet pack works fine without visual mods, but it will lose a large part of its aesthetic.
    * [**EVE Redux**](https://forum.kerbalspaceprogram.com/index.php?/topic/196411-19-112-eve-redux-performance-enhanced-eve-maintenance-v11151-07112021/): for clouds, dust storms, and auroras.
-   * [**Scatterer**](https://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip19x-112x-scatterer-atmospheric-scattering-00838-14082022-scattering-improvements-in-game-atmo-generation-and-multi-sun-support/): for realistic atmosphere, oceans, and sun flares.  
+   * [**Scatterer**](https://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip19x-112x-scatterer-atmospheric-scattering-00838-14082022-scattering-improvements-in-game-atmo-generation-and-multi-sun-support/): for realistic atmosphere, oceans, and sun flares. 
 
 ### Installation Checklist
    After a complete installation, the GameData folder should AT LEAST have the following contents:
@@ -77,6 +81,7 @@ The planet pack works fine without visual mods, but it will lose a large part of
    * 000_NiakoUtils
    * EnvironmentalVisualEnhancements
    * KcalbelohSystem
+   * KcalbelohTextures
    * Kopernicus
    * KopernicusExpansion
    * KSPCommunityFixes
@@ -97,7 +102,7 @@ The planet pack works fine without visual mods, but it will lose a large part of
    - **DMagic Orbital Science**
    - **Kerbalism**
    - **PlanetShine**
-   - **True Volumetric Clouds**: Since it hasn't been released publicly, support for volumetric clouds is not provided officially at the moment. Before that, I'd post [**Kcalbeloh System Volumetric** by ProximaCentauri-star](https://github.com/ProximaCentauri-star/KcalebelohVolumetrics/releases) here for those who are interested. Use it at your own risk.
+   - **True Volumetric Clouds**: Official support is in development. You can find the UNFINISHED test version [here](https://github.com/jcyuan06/Kcalbeloh-Volumetric-Clouds/releases). Use it at your own risk.
 ### Compatible With:
    - **Visual Packs**: AVP and Spectra.
    - **Planet Mods**: It depends. As an interstellar planet mod, Kcalbeloh shouldn't have conflicts with most planet mods, as long as:
@@ -116,11 +121,12 @@ Kcalbeloh System provides configuration for Principia in v1.1.2 and above. The o
 ### Real Solar System
 Kcalbeloh System is compatible with RSS, but the following steps should be taken:
 1. Install RSS and Kcalbeloh System first.
-2. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions).
+2. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions). 
 
 Note: 
    - When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
    - Kcalbeloh System is NOT compatible with RSS and Parallax together.
+   - Do NOT install Sigma Dimensions on CKAN since the version on CKAN is outdated.
 
 # Mod Settings
 ![Imgur](https://i.imgur.com/VVoMOzg.png)
@@ -145,7 +151,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    - `True`: Remove the stock system. It can reduce RAM and CPU usage.
 
 ### Distance
-`DistanceFactor =`: moving Kcalbeoh System closer or further to the stock system.  
+`DistanceFactor =`: moving Kcalbeloh System closer or further to the stock system.  
    - `1`: (default) keep the default distance (271.8 Tm).
    - `0`: Kerbol will orbit Kcalbeloh.
    - `0.1`: 0.1x default distance.
@@ -161,8 +167,8 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
 
 ### Star Size
 `RealisticStarSize = `: In KSP, the dimensions of stars appear disproportionately larger in comparison to the planets. This item aligns the size of stars with that of planets, thereby yielding a more realistic visual aesthetic.
-   - `False`: (Default) Keep the size of stars untouched.
-   - `True`: Adjust the size of stars to the same scale as planets. It only influences the visual appearance. The mass of the stars won't be changed.
+   - `True`		- (Default) Adjust the size of stars to a realistic scale compared with planets. It only influences the visual appearance. The mass of the stars won't be changed.
+   - `False`	- Keep the size of stars untouched.
    - It only changes Kerbol and the stars in Kcalbeloh system.
 ### Skybox
 `DisableSkybox = `: Whether to disable the skybox bundled with Kcalbeloh System.
@@ -209,7 +215,13 @@ Yes, but you need to install [Sigma Dimensions](https://github.com/Sigma88/Sigma
 Yes, it is compatible with most visual mods for stock system, such as Astronomer's Visual Pack, Spectra, and Stock Visual Enhancement.
 
 6. **What is a wormhole? How can I use it?**  
-A wormhole is a structure linking disparate points in spacetime. In KSP, a wormhole functions like a celestial body with its mass and SOI. To traverse the wormhole, you need to lower your periapsis below 30 km. After you reach the periapsis, you will jump to the other star system.
+A wormhole is a structure linking disparate points in spacetime. In KSP, a wormhole functions like a celestial body with its mass and SOI. To traverse the wormhole, you need to lower your periapsis below 30 km. After you reach the periapsis, you will jump to the other star system. The wormhole orbits Jool by default, while it orbits Sarnus if OPM is installed, or Saturn if RSS/KSRSS is installed. 
+
+8. **How can I establish communication with vessels in the Kcalbeloh system?**
+The Kcalbeloh system is situated over 200 trillion meters away from the Kerbol system, exceeding the range of even super antennas in most mods. Also, you cannot communicate through the wormhole. There are still several solutions you can consider:
+   - **(Recommended)** Send a crewed control station equipped with a remote control module, such as the RC-L01 Remote Guidance Unit. Utilize this module to remotely control your probes without connecting to KSC. Also, many modded command pods can act as a [probe control point](https://wiki.kerbalspaceprogram.com/wiki/Probe_Control_Point) as well.
+   - Set DistanceFactor = 0 in KcalbelohSystemSettings.cfg, causing Kerbol to orbit Kcalbeloh. This adjustment will significantly reduce the communication distance to a more manageable scale, measured in trillions of meters, which can be handled by antennas in the Near Future mods.
+   - Use some modded super powerful interstellar antennas (GU parts has some as I know). Keep in mind that this option may stretch realism, as real-time interstellar communication is implausible in reality due to the limitations imposed by the speed of light.
 
 # Contact
 ![Imgur](https://i.imgur.com/jFkzu48.png)
