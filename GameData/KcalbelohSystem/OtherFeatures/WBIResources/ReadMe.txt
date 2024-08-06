@@ -1,0 +1,1 @@
+These resource configs are centric to the WildBlue suite of mods and will come into play only if the requisite WBI mods are in place
