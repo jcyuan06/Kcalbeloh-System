@@ -22,6 +22,7 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    - [**兼容性**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E5%85%BC%E5%AE%B9%E6%80%A7)
       - [Principia](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#principia)
       - [真实太阳系(RSS)](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E7%9C%9F%E5%AE%9E%E5%A4%AA%E9%98%B3%E7%B3%BBreal-solar-system)
+      - [KSRSS](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#ksrss)
    - [**Mod设置教程**](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#mod%E8%AE%BE%E7%BD%AE%E6%95%99%E7%A8%8B)
       - [虫洞](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#%E8%99%AB%E6%B4%9E)
       - [KSC迁移](https://github.com/jcyuan06/Kcalbeloh-System/blob/main/README_Chinese.md#ksc%E8%BF%81%E7%A7%BB)
@@ -59,7 +60,7 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    * 从以下来源下载 `Kcalbeloh-System-(v1.x.x).zip`：
       - [GitHub](https://github.com/jcyuan06/Kcalbeloh-System/releases) 
       - [腾讯微云](https://share.weiyun.com/dNciX1n9)（供中国玩家使用）
-   * 解压缩 zip 文件，并将四个文件夹（`000_NiakoUtils`、`KcalbelohSystem`、`KcalbelohTextures` 和 `KopernicusExpansion`）放入 `/GameData` 文件夹，即 `[KSP 安装目录]/GameData/` 文件夹。
+   * 解压缩 zip 文件，并将四个文件夹（`000_NiakoUtils`、`001_DuckweedUtils`、`KcalbelohSystem`、`KcalbelohTextures` 和 `KopernicusExpansion`）放入 `/GameData` 文件夹，即 `[KSP 安装目录]/GameData/` 文件夹。
    * **不要**下载 `KcalbelohExtras.zip`，除非您知道它的用途。
 2. **安装依赖项**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/)：用于创建自定义天体。
@@ -75,6 +76,7 @@ Kcalbeloh System是一个行星包，它添加了一个全新的黑洞系统，�
    一个正确完整的安装后，你的GameData文件夹应**至少**包括如下内容：
    * 000_Harmony
    * 000_NiakoUtils
+   * 001_DuckweedUtils
    * EnvironmentalVisualEnhancements
    * KcalbelohSystem
    * Kopernicus
@@ -117,11 +119,20 @@ Kcalbeloh System 在 v1.1.2 及以上版本中提供了对 Principia 的配置�
 ### 真实太阳系（Real Solar System）
 Kcalbeloh System 与 RSS 兼容，但应采取以下步骤：
 1. 先安装 RSS 和 Kcalbeloh System。
-2. 安装 [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions)。
+2. 安装 [Sigma Dimensions](https://github.com/R-T-B/Sigma-Dimensions/releases) (可用CKAN)。
 
 注意：
    - 当将 Kcalbeloh System 和 RealSolarSystem 一起安装时，将强制在 Kcalbeloh System 上使用10倍缩放。
    - Kcalbeloh System 与 RSS 和 Parallax 不能同时兼容。
+
+### KSRSS
+Kcalbeloh System 与 KSRSS 兼容，但应采取以下步骤：
+1. 先安装 KSRSS 和 Kcalbeloh System。
+2. 安装 [Sigma Dimensions](https://github.com/R-T-B/Sigma-Dimensions/releases) (可用CKAN)。
+
+注意：
+   - 当将 Kcalbeloh System 和 KSRSS 一起安装时，系统的缩放与KSRSS的设置保持一致。
+   - Kcalbeloh System 与 KSRSS 和 Parallax 不能同时兼容。
 
 # Mod设置教程
 ![Imgur](https://i.imgur.com/SIjy14c.png)
@@ -172,11 +183,10 @@ Kcalbeloh System 与 RSS 兼容，但应采取以下步骤：
    
 # 推荐的Mod
 ![Imgur](https://i.imgur.com/jFkzu48.png)
-   -  **推进器相关**
-      -  [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/) 
+   -  **未来科技**
+      - [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/) 
       - [Far Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/)  
-      或
-      - [KSP Interstellar Extended](https://forum.kerbalspaceprogram.com/index.php?/topic/173818-181-1122-ksp-interstellar-extended-1295-release-thread/)
+      - [Sterling Systems](https://forum.kerbalspaceprogram.com/topic/219609-1125-sterling-systems-v0402-aug-14-2024/)
    
    - **游戏体验相关**
       - [Better Time Warp](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)  
@@ -204,7 +214,7 @@ Kcalbeloh System 与 RSS 兼容，但应采取以下步骤：
 它与绝大多数星球包兼容。
 
 4. **它支持真实太阳系(RSS)吗？**  
-是的，不过需要安装[Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions). 详情[在此](https://github.com/jcyuan06/Kcalbeloh-System#real-solar-system).
+是的，不过需要安装[Sigma Dimensions](https://github.com/R-T-B/Sigma-Dimensions/releases). 详情[在此](https://github.com/jcyuan06/Kcalbeloh-System#real-solar-system).
 
 5. **它与其他美化包兼容吗？**  
 是的，它与大部分主流美化包兼容，比如Astronomer's Visual Pack, Spectra.
