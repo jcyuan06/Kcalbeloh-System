@@ -128,7 +128,7 @@ Kcalbeloh System is compatible with RSS, but the following steps should be taken
 Note: 
    - When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
    - Kcalbeloh System is NOT compatible with RSS and Parallax together.
-   - Latest Sigma Dimensions is available on CKAN.
+   - The latest Sigma Dimensions is available on CKAN.
 
 ### KSRSS
 Kcalbeloh System is compatible with KSRSS, but the following steps should be taken:
@@ -137,8 +137,8 @@ Kcalbeloh System is compatible with KSRSS, but the following steps should be tak
 
 Note: 
    - When installing Kcalbeloh System and KSRSS together, the system scale will follow the settings of KSRSS. The rescale setting of Kcalbeloh will be overwritten.
-   - Kcalbeloh System is NOT compatible with RSS and Parallax together.
-   - Latest Sigma Dimensions is available on CKAN.
+   - Kcalbeloh System is NOT compatible with KSRSS and Parallax together.
+   - The latest Sigma Dimensions is available on CKAN.
 
 # Mod Settings
 ![Imgur](https://i.imgur.com/VVoMOzg.png)
