@@ -23,6 +23,7 @@ Happy launchings!
    - [**Compatibility**](https://github.com/jcyuan06/Kcalbeloh-System#compatibility)
       - [Principia](https://github.com/jcyuan06/Kcalbeloh-System#principia)
       - [Real Solar System](https://github.com/jcyuan06/Kcalbeloh-System#real-solar-system)
+      - [KSRSS](https://github.com/jcyuan06/Kcalbeloh-System#ksrss)
    - [**Mod Settings**](https://github.com/jcyuan06/Kcalbeloh-System#mod-settings)
       - [Wormholes](https://github.com/jcyuan06/Kcalbeloh-System#wormholes)
       - [Home Switch](https://github.com/jcyuan06/Kcalbeloh-System#home-switch)
@@ -64,7 +65,7 @@ Happy launchings!
    * Choose **ONE** of them to download: 
        * `Kcalbeloh-Textures-4k.zip`: Regular-res textures.
        * `Kcalbeloh-Textures-8k.zip`: High-res textures, NOT recommended if your RAM is no more than 16 GB.
-   * Extract the zip files and put all the folders in `/GameData` (`000_NiakoUtils`, `KcalbelohSystem`, `KcalbelohTextures`, and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
+   * Extract the zip files and put all the folders in `/GameData` (`000_NiakoUtils`, `001_DuckweedUtils`, `KcalbelohSystem`, `KcalbelohTextures`, and `KopernicusExpansion`) to your `[KSP installation folder]/GameData/` folder.
    * Do **NOT** download `KcalbelohExtras.zip` unless you know what it is used for.
 2. **Install Dependencies**
    * [**Kopernicus**](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-181-1122-kopernicus-stable-branch-last-updated-november-25th-2021/): for creating custom celestial bodies.
@@ -79,6 +80,7 @@ The planet pack works fine without visual mods, but it will lose a large part of
    After a complete installation, the GameData folder should AT LEAST have the following contents:
    * 000_Harmony
    * 000_NiakoUtils
+   * 001_DuckweedUtils
    * EnvironmentalVisualEnhancements
    * KcalbelohSystem
    * KcalbelohTextures
@@ -121,12 +123,22 @@ Kcalbeloh System provides configuration for Principia in v1.1.2 and above. The o
 ### Real Solar System
 Kcalbeloh System is compatible with RSS, but the following steps should be taken:
 1. Install RSS and Kcalbeloh System first.
-2. Install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions). 
+2. Install [Sigma Dimensions](https://github.com/R-T-B/Sigma-Dimensions/releases) (available on CKAN). 
 
 Note: 
    - When installing Kcalbeloh System and RealSolarSystem together, 10x rescale will be forced on Kcalbeloh System.
    - Kcalbeloh System is NOT compatible with RSS and Parallax together.
-   - Do NOT install Sigma Dimensions on CKAN since the version on CKAN is outdated.
+   - Latest Sigma Dimensions is available on CKAN.
+
+### KSRSS
+Kcalbeloh System is compatible with KSRSS, but the following steps should be taken:
+1. Install KSRSS and Kcalbeloh System first.
+2. Install [Sigma Dimensions](https://github.com/R-T-B/Sigma-Dimensions/releases) (available on CKAN). 
+
+Note: 
+   - When installing Kcalbeloh System and KSRSS together, the system scale will follow the settings of KSRSS. The rescale setting of Kcalbeloh will be overwritten.
+   - Kcalbeloh System is NOT compatible with RSS and Parallax together.
+   - Latest Sigma Dimensions is available on CKAN.
 
 # Mod Settings
 ![Imgur](https://i.imgur.com/VVoMOzg.png)
@@ -161,7 +173,7 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
 ### Rescale
 `Rescale = `: rescale the system to 2.5x or 10x size.  
    - `1`: (default) No rescales applied. It has the same scale as the stock system.
-   - `2.5`: 2.5x scale. If JNSQ is installed, this value will be forced.
+   - `2.5`: 2.56x scale. If JNSQ is installed, this value will be forced.
    - `10`: 10x scale (realistic scale). If RealSolarSystem is installed, this option will be forced.
    - This option needs [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions) installed.
 
@@ -177,11 +189,10 @@ Go to `Kerbal Space Program/GameData/KcalbelohSystem/` and open `Kcalbeloh Syste
    
 # Recommended Mods
 ![Imgur](https://i.imgur.com/X0IgV2y.png)
-   -  **Propulsion**
+   -  **Parts**
       - [Near Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/155465-most-112x-near-future-technologies-august-26/) 
       - [Far Future Technologies](https://forum.kerbalspaceprogram.com/index.php?/topic/199070-112x-far-future-technologies-august-23-new-engine/)  
-      or
-      - [KSP Interstellar Extended](https://forum.kerbalspaceprogram.com/index.php?/topic/173818-181-1122-ksp-interstellar-extended-1295-release-thread/)
+      - [Sterling Systems](https://forum.kerbalspaceprogram.com/topic/219609-1125-sterling-systems-v0402-aug-14-2024/)
    
    - **Quality of Life**
       - [Better Time Warp](https://forum.kerbalspaceprogram.com/index.php?/topic/154935-112x-bettertimewarpcontinued-customizable-time-warp-and-lossless-physics-warp/)
@@ -208,8 +219,8 @@ Yes, but no. Although some ideas of the mod are inspired by Interstellar, the go
 3. **Is it compatible with other planet packs?**  
 Yes, it is compatible with most planet packs but it still needs further testing. Let me know if you have any issues.
 
-4. **Is it compatible with Real Solar System?**  
-Yes, but you need to install [Sigma Dimensions](https://github.com/Sigma88/Sigma-Dimensions). See [here](https://github.com/jcyuan06/Kcalbeloh-System#real-solar-system).
+4. **Is it compatible with Real Solar System / KSRSS?**  
+Yes, but you need to install [Sigma Dimensions](https://github.com/R-T-B/Sigma-Dimensions/releases). See [here](https://github.com/jcyuan06/Kcalbeloh-System#real-solar-system).
 
 5. **Is it compatible with other visual mods?**  
 Yes, it is compatible with most visual mods for stock system, such as Astronomer's Visual Pack, Spectra, and Stock Visual Enhancement.
