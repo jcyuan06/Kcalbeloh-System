@@ -46,11 +46,11 @@
 			referenceBody = Sun
 			color = 0.6,0.55,0.5,1
 			nodeColor = 1,0.95,0.9,1
-			inclination = 1
+			inclination = -5
 			eccentricity = 0.01
-			semiMajorAxis = 3.788815E12
+			semiMajorAxis = 7.188815E12
 			longitudeOfAscendingNode = 135
-			argumentOfPeriapsis = 8
+			argumentOfPeriapsis = 90
 			meanAnomalyAtEpoch = 0
 			iconTexture = KcalbelohTextures/PluginData/Decals/star.png
 		}
@@ -133,14 +133,14 @@
 	{
 		@Orbit
 		{
-			%referenceBody = Kerbol
+			@referenceBody = Kerbol
 		}
 	}
 	@Body[Eve]
 	{
 		@Orbit
 		{
-			%referenceBody = Kerbol
+			@referenceBody = Kerbol
 		}
 	}
 	@Body[Kerbin]
@@ -151,7 +151,7 @@
 		}
 		@Orbit
 		{
-			%referenceBody = Kerbol
+			%referenceBody = Sun
 			%semiMajorAxis:NEEDS[Principia] = 2099198902.956156
 		}
 		PostSpawnOrbit
@@ -164,28 +164,28 @@
 	{
 		@Orbit
 		{
-			%referenceBody = Kerbol
+			@referenceBody = Kerbol
 		}
 	}
 	@Body[Dres]
 	{
 		@Orbit
 		{
-			%referenceBody = Kerbol
+			@referenceBody = Kerbol
 		}
 	}
 	@Body[Jool]
 	{
 		@Orbit
 		{
-			%referenceBody = Kerbol
+			@referenceBody = Kerbol
 		}
 	}
 	@Body[Eeloo]
 	{
 		@Orbit
 		{
-			%referenceBody = Kerbol
+			@referenceBody = Kerbol
 		}
 	}
 	// *****************************edit orbit around Kcalbeloh*****************************
@@ -193,49 +193,49 @@
 	{
 		@Orbit
 		{
-			%referenceBody = Sun
+			@referenceBody = Sun
 		}
 	}
 	@Body[Rouqea]
 	{
 		@Orbit
 		{
-			%referenceBody = Sun
+			@referenceBody = Sun
 		}
 	}
 	@Body[Iomena]
 	{
 		@Orbit
 		{
-			%referenceBody = Sun
+			@referenceBody = Sun
 		}
 	}
 	@Body[Uleg]
 	{
 		@Orbit
 		{
-			%referenceBody = Sun
+			@referenceBody = Sun
 		}
 	}
 	@Body[Maelg]
 	{
 		@Orbit
 		{
-			%referenceBody = Sun
+			@referenceBody = Sun
 		}
 	}
 	@Body[Sunorc]
 	{
 		@Orbit
 		{
-			%referenceBody = Sun
+			@referenceBody = Sun
 		}
 	}
 	@Body[AralcA]
 	{
 		@Orbit
 		{
-			%referenceBody = Sun
+			@referenceBody = Sun
 		}
 	}
 
@@ -271,7 +271,7 @@
 			nodeColor = 1,0.95,0.9,1
 			inclination = -5
 			eccentricity = 0.01
-			semiMajorAxis = 3.788815E12
+			semiMajorAxis = 7.188815E12
 			longitudeOfAscendingNode = 135
 			argumentOfPeriapsis = 90
 			meanAnomalyAtEpoch = 0
@@ -333,7 +333,7 @@
 	{
 		@Item:HAS[#mainSunCelestialBody[Kcalbeloh]]
 		{
-			%mainSunCelestialBody = Sun
+			@mainSunCelestialBody = Sun
 		}
 		
 	}
